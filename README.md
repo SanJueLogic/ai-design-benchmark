@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](paper/AI-Design-Benchmark-v1.1.md)
+[![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/ai-design-benchmark/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
 
 ---
 
