@@ -37,7 +37,7 @@ pip install -r tools/requirements.txt
 git clone https://github.com/SanJueLogic/ai-design-benchmark
 cd ai-design-benchmark
 python tools/scoring.py --input results/round-1/raw-votes.csv --output results/round-1/aggregated-repro.csv
-python tools/confidence.py --input results/round-1/aggregated-repro.csv
+python tools/confidence.py --input results/round-1/raw-votes.csv
 ```
 
 ### 运行你自己的一轮评测
