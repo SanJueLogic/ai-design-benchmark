@@ -1,3 +1,45 @@
+# IP Character Design — Evaluation Task Set
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+> **Note**: This document is the generic cross-product evaluation version. Brand-specific content has been replaced with the fictional brand 'StarSelect / 星选'. Reference images for edit-type tasks are available in `../reference-images/` and can be used directly for evaluation.
+
+| ID | Task Type | Prompt | Reference Image |
+| :--- | :--- | :--- | :--- |
+| IP-001 | Ambiguous[^1] | Design a creative Mengxing (StarSelect mascot) character; background and activity are open, encourage bold innovation | / |
+| IP-002 | Ambiguous[^1] | Design a scene of the Mengxing mascot participating in an activity; any fun occasion works | / |
+| IP-003 | Ambiguous[^1] | Design a scene combining the Mengxing mascot with natural backgrounds such as mountains, rivers, or forests | / |
+| IP-004 | Ambiguous[^1] | Design a Mengxing mascot character in a modern style suitable for brand advertising | / |
+| IP-005 | Ambiguous[^1] | Design a Mengxing mascot character expressing multiple emotions such as happiness, confusion, etc. | / |
+| IP-006 | Explicit[^2] | Design the Mengxing mascot performing a lion dance with two dynamic poses full of energy, excited and festive expression, celebrating Lunar New Year atmosphere; square ratio, 3D C4D style, pure white background | / |
+| IP-007 | Explicit[^2] | Design a Year of the Dragon limited-edition Mengxing mascot collectible art toy in 3D C4D style. The mascot is presented in rounded cute toy proportions, seated steadily with a slight forward lean, arms naturally raised in a classic art toy pose. Wearing a Year of the Dragon themed cartoon dragon costume with simplified but clear outlines; surface uses high-density iridescent plush material with short fine fuzz and local laser holographic coating showing soft rainbow reflections at different angles. Dragon horns are semi-transparent laser material with subtle gradient and refraction; dragon whiskers in soft plush texture contrasting with harder materials. Tail and feet in blue holographic gradient material with slight translucency. Background: colorful screen diffused rainbow background, global illumination, display-cabinet soft light, edge highlights | / |
+| IP-008 | Explicit[^2] | Design a super-wide main visual featuring the Mengxing mascot with a brand super-symbol; mascot wears a red cape and flies on the left side; the main subject is a giant brand super-symbol formed not from solid material but from billions of brilliant golden particles, stardust, and light streams forming an energy body, floating in the center of a giant golden galactic spiral arm in deep space, surrounded by orbital lines and glowing nebulae; deep cosmic background, dramatic lighting, rich particle feel, epic wide-angle lens; ultra-wide format: 2048×768 | / |
+| IP-009 | Explicit[^2] | Mengxing mascot wearing a safety helmet, holding a delivery paper bag in one hand, smiling and standing beside a scooter. The right side shows a delivery vehicle. Background is a modern urban tech delivery environment with soft lighting and balanced composition, conveying an efficient, warm, and professional delivery service image | / |
+| IP-010 | Explicit[^2] | Design a Chinese New Year Dragon Year themed 3D cartoon scene: a snowy ancient alley at night under a starry sky (snow on rooftops, red lanterns, pedestrians and New Year market stalls on the ground), with blue-purple fireworks and floating sky lanterns in the background; keep the original red-gold auspicious dragon (detailed dragon head, extended body) and a twin-bun cartoon girl holding a flower lantern sitting on a rooftop; replace the original dragon-riding character with the Mengxing mascot — round and cute, wearing red-gold Chinese-style decorations with Chinese knot elements, cheerful expression; proportions, 3D cartoon style, and warm lighting must be consistent with the original; naturally riding the dragon, overall festive and warm atmosphere, rich details, vivid saturated colors | / |
+| IP-011 | Edit-type[^3] | Based on the IP character in the reference image, change the mascot's standing pose to sitting on the ground | ![IP011.png](../reference-images/IP011.png) |
+| IP-012 | Edit-type[^3] | Based on the IP character in the reference image, change the outfit to summer vacation style: Hawaiian shirt, white T-shirt, shorts, and sandals | ![IP012.png](../reference-images/IP012.png) |
+| IP-013 | Edit-type[^3] | Based on the IP character in the reference image, make the umbrella larger and change its color to alternating red and white | ![IP013.png](../reference-images/IP013.png) |
+| IP-014 | Edit-type[^3] | Based on the IP character in the reference image, change the mascot's expression to a big happy laugh | ![IP014.png](../reference-images/IP014.png) |
+| IP-015 | Edit-type[^3] | Based on the IP character in the reference image, keeping the character unchanged, add transparent gaming goggles on the mascot's head, gaming headphones, and a watch | ![IP015.png](../reference-images/IP015.png) |
+| IP-016 | Edit-type[^3] | Please remove the background from this IP character image and replace it with a summer beach style background | ![IP016.png](../reference-images/IP016.png) |
+| IP-017 | Edit-type[^3] | Change the standing pose in the image to the classic Swan Lake single-leg point stance, arms wrapped around | ![IP017.png](../reference-images/IP017.png) |
+| IP-018 | Edit-type[^3] | Please crop this image to a square 1:1 ratio at 256×256px | ![IP018.png](../reference-images/IP018.png) |
+| IP-019 | Edit-type[^3] | Turn this image into an animation | ![IP019.png](../reference-images/IP019.png) |
+| IP-020 | Edit-type[^3] | Turn this image into a GIF emoji sticker | ![IP020.png](../reference-images/IP020.png) |
+
+[^1]: **Ambiguous task**: the prompt is imprecise and vague, testing the model's ability to understand and creatively interpret design requirements
+[^2]: **Explicit task**: the prompt is precise, including specific brand name, style, color scheme, and composition requirements; tests the model's precise execution ability
+[^3]: **Edit-type task**: based on editing an existing image; tests the model's image understanding and local editing ability
+[^4]: **Compound task**: requires completing a primary design task plus scene extension or multiple proposals in one conversation; tests comprehensive ability
+
+---
+
+## 中文
+
 # IP 形象设计场景评测任务集（通用竞品版）
 
 > **说明**：本文档为通用竞品评测版本，已移除品牌特异性内容。编辑型需求任务所需参考图已内置于 `images/` 目录，可直接执行评测，无需手动准备图片。
@@ -14,16 +56,16 @@
 | IP-008 | 明确任务[^2] | 给我设计一个萌星吉祥物与品牌超级符号的超横主视觉，吉祥物穿着红色斗篷飞行在画面左边，主体是一个巨大的品牌超级符号，它不是实体，而是由亿万颗璀璨的金色粒子、星尘和光流汇聚而成的能量体，它悬浮在宇宙深处一个巨大的金色星系旋臂中心，周围环绕着轨道线和发光的星云，背景是深邃的宇宙，光影强烈，粒子感丰富，史诗级广角镜头，超横：2048*768 | |
 | IP-009 | 明确任务[^2] | 萌星吉祥物佩戴安全头盔，单手提着外卖纸袋，微笑站立于电动车旁。画面右侧为外卖配送车。整体背景为现代城市科技配送环境，光影柔和、结构协调，体现高效、温暖、专业的配送服务形象 | |
 | IP-010 | 明确任务[^2] | 给我设计一个中国新春龙年主题 3D 卡通风格场景，夜晚星空下的国风覆雪古巷（屋顶积雪、红灯笼点缀、地面有行人与年货摊位），背景绽放蓝紫色烟花、漂浮天灯；主体保留红金配色祥瑞金纹巨龙（龙头精致、龙身舒展）、手持花灯笼的双丸子头卡通女孩（坐于屋顶）；将原骑龙的角色替换为萌星吉祥物，造型圆润可爱，身披红金中式装饰（带中国结元素），神态欢快，比例、3D 卡通风格、暖光光感与原画面完全统一，自然骑于龙身，整体氛围喜庆温馨，细节精致，色彩鲜亮饱和 | |
-| IP-011 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把吉祥物的站姿改成坐在地面上的姿态 | ![IP011.png](images/IP011.png) |
-| IP-012 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把服装换成夏日度假风格：花衬衫、白T恤、短裤和拖鞋 | ![IP012.png](images/IP012.png) |
-| IP-013 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把手中的雨伞改得更大些，颜色换成红色和白色相间的 | ![IP013.png](images/IP013.png) |
-| IP-014 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把吉祥物的表情改成开心大笑 | ![IP014.png](images/IP014.png) |
-| IP-015 | 编辑型需求[^3] | 参考图中的 IP 形象，保持角色不变，帮我给吉祥物头顶加上透明电竞护目镜，戴着电竞耳机，带上手表 | ![IP015.png](images/IP015.png) |
-| IP-016 | 编辑型需求[^3] | 帮我把这张 IP 形象图抠图出来，把背景改成夏日海边的风格背景 | ![IP016.png](images/IP016.png) |
-| IP-017 | 编辑型需求[^3] | 帮我把图片中的站姿改成小天鹅舞蹈经典单脚点地动作，双手环抱 | ![IP017.png](images/IP017.png) |
-| IP-018 | 编辑型需求[^3] | 帮我把这张图片做成头像裁切的正方形尺寸 1:1，256*256px | ![IP018.png](images/IP018.png) |
-| IP-019 | 编辑型需求[^3] | 帮我把图片生成动画 | ![IP019.png](images/IP019.png) |
-| IP-020 | 编辑型需求[^3] | 帮我把这个图片做成 GIF 表情包 | ![IP020.png](images/IP020.png) |
+| IP-011 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把吉祥物的站姿改成坐在地面上的姿态 | ![IP011.png](../reference-images/IP011.png) |
+| IP-012 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把服装换成夏日度假风格：花衬衫、白T恤、短裤和拖鞋 | ![IP012.png](../reference-images/IP012.png) |
+| IP-013 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把手中的雨伞改得更大些，颜色换成红色和白色相间的 | ![IP013.png](../reference-images/IP013.png) |
+| IP-014 | 编辑型需求[^3] | 参考图中的 IP 形象，帮我把吉祥物的表情改成开心大笑 | ![IP014.png](../reference-images/IP014.png) |
+| IP-015 | 编辑型需求[^3] | 参考图中的 IP 形象，保持角色不变，帮我给吉祥物头顶加上透明电竞护目镜，戴着电竞耳机，带上手表 | ![IP015.png](../reference-images/IP015.png) |
+| IP-016 | 编辑型需求[^3] | 帮我把这张 IP 形象图抠图出来，把背景改成夏日海边的风格背景 | ![IP016.png](../reference-images/IP016.png) |
+| IP-017 | 编辑型需求[^3] | 帮我把图片中的站姿改成小天鹅舞蹈经典单脚点地动作，双手环抱 | ![IP017.png](../reference-images/IP017.png) |
+| IP-018 | 编辑型需求[^3] | 帮我把这张图片做成头像裁切的正方形尺寸 1:1，256*256px | ![IP018.png](../reference-images/IP018.png) |
+| IP-019 | 编辑型需求[^3] | 帮我把图片生成动画 | ![IP019.png](../reference-images/IP019.png) |
+| IP-020 | 编辑型需求[^3] | 帮我把这个图片做成 GIF 表情包 | ![IP020.png](../reference-images/IP020.png) |
 
 [^1]: **模糊任务**：用户的任务请求相对模糊，需要考验模型工具的理解能力
 [^2]: **明确任务**：用户的任务请求非常具体，对于画面各部分都有明确的要求

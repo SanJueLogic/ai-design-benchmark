@@ -1,16 +1,16 @@
 """
-scoring.py — 四层聚合打分脚本
+scoring.py — 4-layer aggregation scoring script
 
-用法:
+Usage:
     python tools/scoring.py --input results/round-1/raw-votes.csv --output results/round-1/aggregated-repro.csv
 
-输入格式 (raw-votes.csv):
+Input format (raw-votes.csv):
     scene, evaluator, role, question, task, vote
 
-vote 取值:
-    1/2/3 = 选择对应产品（产品顺序见 --product-map）
-    5 = 差不多（不计入）
-    6 = 此题目与任务无关（不计入）
+vote values:
+    1/2/3 = vote for corresponding product (see --product-map)
+    5     = about the same (excluded from scoring)
+    6     = not relevant to this task (excluded from scoring)
 """
 
 import csv
@@ -28,15 +28,15 @@ def load_votes(path: str) -> list[dict]:
 
 def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
     """
-    四层聚合：
-    L1 - 题目层：统计每道题每个产品的得票数
-    L2 - 任务层：5 题中赢得最多题目的产品赢得该任务（允许并列）
-    L3 - 场景层：赢得任务数 / 总任务数 = 场景胜率
-    L4 - 总榜层：所有场景赢得任务数 / 总任务数
+    4-layer aggregation:
+    L1 - Question level: count votes per product per question
+    L2 - Task level: product that wins the most questions wins the task (ties allowed)
+    L3 - Scene level: tasks_won / total_tasks = scene win rate
+    L4 - Overall: total tasks_won / total tasks across all scenes
     """
     products = list(product_map.values())
 
-    # L1: 题目层得票
+    # L1: question-level vote counts
     # key: (scene, task, question) -> {product: vote_count}
     q_votes: dict = defaultdict(lambda: defaultdict(int))
     for row in rows:
@@ -48,7 +48,7 @@ def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
         key = (row["scene"], row["task"], row["question"])
         q_votes[key][prod] += 1
 
-    # L2: 任务层胜出判定
+    # L2: task-level winner determination
     # key: (scene, task) -> {product: questions_won}
     task_wins: dict = defaultdict(lambda: defaultdict(int))
     for (scene, task, question), prod_votes in q_votes.items():
@@ -59,7 +59,7 @@ def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
         for w in winners:
             task_wins[(scene, task)][w] += 1
 
-    # L2 -> 任务胜出产品（允许并列）
+    # L2 -> task winners (ties allowed)
     task_winners: dict = defaultdict(set)
     for (scene, task), prod_q_wins in task_wins.items():
         if not prod_q_wins:
@@ -69,7 +69,7 @@ def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
             if w == max_q:
                 task_winners[(scene, task)].add(p)
 
-    # L3: 场景层聚合
+    # L3: scene-level aggregation
     scene_tasks: dict = defaultdict(set)
     scene_prod_wins: dict = defaultdict(lambda: defaultdict(int))
     for (scene, task), winners in task_winners.items():
@@ -77,7 +77,6 @@ def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
         for p in winners:
             scene_prod_wins[scene][p] += 1
 
-    # 构建输出行
     results = []
     total_tasks = sum(len(tasks) for tasks in scene_tasks.values())
     overall_wins: dict = defaultdict(int)
@@ -102,17 +101,16 @@ def aggregate(rows: list[dict], product_map: dict[str, str]) -> list[dict]:
                 winner_rate = rate
                 winner_prod = prod
 
-        # 标注第一名
         for r in results:
             if r["scene"] == scene and r["product"] == winner_prod:
-                r["first_place"] = "是"
+                r["first_place"] = "Yes"
 
-    # 总榜行
+    # L4: overall row
     for prod in products:
         wins = overall_wins[prod]
         rate = wins / total_tasks if total_tasks > 0 else 0.0
         results.append({
-            "scene": "【总计】",
+            "scene": "[Total]",
             "product": prod,
             "tasks_won": wins,
             "total_tasks": total_tasks,
@@ -129,17 +127,17 @@ def write_results(results: list[dict], path: str):
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
-    print(f"结果已写入: {path}")
+    print(f"Results written to: {path}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="AI Design Benchmark 四层聚合打分脚本")
-    parser.add_argument("--input", required=True, help="原始投票 CSV 路径")
-    parser.add_argument("--output", required=True, help="聚合结果 CSV 输出路径")
+    parser = argparse.ArgumentParser(description="AI Design Benchmark — 4-layer aggregation scoring")
+    parser.add_argument("--input", required=True, help="Path to raw-votes CSV file")
+    parser.add_argument("--output", required=True, help="Output path for aggregated results CSV")
     parser.add_argument(
         "--product-map",
         default="1:Lovart,2:Roboneo,3:即梦",
-        help="投票值到产品名的映射，格式：1:ProductA,2:ProductB,3:ProductC",
+        help="Mapping from vote value to product name, e.g. 1:ProductA,2:ProductB,3:ProductC",
     )
     args = parser.parse_args()
 
@@ -148,9 +146,9 @@ def main():
         k, v = item.strip().split(":")
         product_map[k.strip()] = v.strip()
 
-    print(f"产品映射: {product_map}")
+    print(f"Product map: {product_map}")
     rows = load_votes(args.input)
-    print(f"加载 {len(rows)} 条投票记录")
+    print(f"Loaded {len(rows)} vote records")
 
     results = aggregate(rows, product_map)
     write_results(results, args.output)

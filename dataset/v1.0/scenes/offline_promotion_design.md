@@ -1,3 +1,45 @@
+# Offline Promotion Design — Evaluation Task Set
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+> **Note**: This document is the generic cross-product evaluation version. Brand-specific content has been replaced with the fictional brand 'StarSelect / 星选'. Reference images for edit-type tasks are available in `../reference-images/` and can be used directly for evaluation.
+
+| ID | Task Type | Prompt | Reference Image |
+| :--- | :--- | :--- | :--- |
+| F-001 | Ambiguous[^1] | The station needs to recruit riders — make a display stand to put at the entrance | / |
+| F-002 | Ambiguous[^1] | The store's 3rd anniversary needs a retractable banner stand at the entrance | / |
+| F-003 | Ambiguous[^1] | Can you make the QR code payment sign for the checkout counter? | / |
+| F-004 | Ambiguous[^1] | Opening next week — need to make a banner saying 'Congratulations on the Grand Opening' or similar | / |
+| F-005 | Ambiguous[^1] | The shopping mall is having a food festival next month — need to make a batch of street pole flags | / |
+| F-006 | Explicit[^2] | Help me design a smart ordering table card, size 20.5×14.5cm; based on the uploaded dish images, design a table card suitable for this dish | ![F006.jpg](../reference-images/F006.jpg) |
+| F-007 | Explicit[^2] | Based on the following event plan, create a suitable offline event promotional poster, size 60×90cm, overall style 3D C4D warm-realistic. Top title 'Dalu E-bike Rental starting from ¥10/day', subtitle 'Commute with Dalu, longer rental packages are better value'; key rental packages (card format, vertical order): 1. Flexible short rental: ¥5/3hrs; 2. 1-day rental: ¥19; 3. 3-day rental: ¥49; 4. Weekly rental: ¥109; 5. Monthly rental: ¥299. Produce three proposals | / |
+| F-008 | Explicit[^2] | Design a display stand, size 60×160cm, theme is Space Journey; background should feature many claw machines; reserve space for a QR code | / |
+| F-009 | Explicit[^2] | Design Spring Festival promotional hanging flags — size 30×60cm vertical hanging flag; theme: 2026 Year of the Horse Spring Festival; top: auspicious cloud pattern decorative strip; main title 'Spring Festival Special' in brush calligraphy, gold color; subtitle '¥20 off orders over ¥100' in red-background white-text explosion badge style; center: Year of the Horse zodiac paper-cut pattern decoration; colors: Chinese red as main color with gold accents; style: festive traditional, strong holiday atmosphere; printing: double-sided, waterproof material | / |
+| F-010 | Explicit[^2] | Create a new store opening banner — size 600×80cm; main copy 'Warmly Celebrate the Grand Opening of XX Store' centered; subtitle 'During opening period, 20% off everything, gifts for entering'; background: bright red; font: main copy in yellow bold, subtitle in white; decoration: streaming ribbon elements at both ends; material: outdoor waterproof fabric | / |
+| F-011 | Explicit[^2] | Design an annual recognition ceremony backdrop — size 800×300cm (stage backdrop); main title '2025 Annual Recognition Ceremony' centered in gold 3D lettering; subtitle 'Forge ahead together, create brilliance' below in white; background: dark blue gradient; decorative elements: symmetrical radiant lines on both sides, gold wave pattern at bottom, star light accents at four corners; bottom: reserved space for date and location; style: grand and solemn, corporate year-end gala | / |
+| F-012 | Explicit[^2] | Help me design a Labor Day (May 1st) display stand (60×160cm); promotional info: spend ¥99 save ¥20, event period May 1–3; design style lively and warm | / |
+| F-013 | Explicit[^2] | Create a 2026 Year of the Horse Spring Festival banner — size 300×80cm; main copy 'Warm Congratulations, Happy New Year'; color scheme: bright red background, gold text; festive traditional style | / |
+| F-014 | Explicit[^2] | Design a self-pickup point retractable banner stand (60×160cm); theme: Tomorrow's Delivery, Super Savings; yellow as main color; reserve space for QR code; bottom address: 1F, Building B, No.10 Wangjing Street, Chaoyang District, Beijing | / |
+| F-015 | Compound[^4] | Help me design a set of series materials for a self-pickup point: ① entrance retractable banner stand (60×160cm): featuring 'Tomorrow Delivery · Super Savings'; ② entrance banner (300×80cm): warmly welcoming customers; ③ checkout counter small sign (A5 horizontal): scan to get coupon. Three-piece set with unified visual style, main brand color yellow, clean and grand | / |
+| F-016 | Compound[^4] | Design supporting materials for a tech company annual gala: ① check-in backdrop (400×200cm): theme 'Stars and Seas · 2026 Annual Gala', tech-feel blue tones; ② desk name card (20×8cm, triangular standing): matching style; ③ wayfinding sign (A4 vertical): guiding attendees to various meeting rooms. Three-piece set with unified style | / |
+| F-017 | Compound[^4] | Design a set of offline promotional materials for a food delivery platform's autumn promotion event: ① 3×6 meter outdoor banner: event theme 'Autumn Carnival — Save ¥50 on Delivery'; ② 80×180cm door-type display stand: featuring brand mascot + event info; ③ A4 single-page flyer: double-sided, event poster on front, participation rules on back. Three materials with unified style | / |
+| F-018 | Compound[^4] | New store opening needs a set of materials: ① store entrance opening banner (500×100cm): warmly celebrate XX store opening, 10% off everything for the first three days; ② in-store promotional display stand (60×160cm): featuring popular products and prices; ③ checkout counter card (A5 horizontal): guiding customers to follow the official account. Three materials with unified brand style, main colors yellow + white, incorporating grand opening festive atmosphere | / |
+| F-019 | Compound[^4] | Design a set of rider station recruitment promotional materials: ① large display stand at station entrance (80×180cm): rider recruitment theme showing salary benefits and job advantages; ② A4 flyer: for passersby to take away, including detailed job info and QR code registration; ③ in-station bulletin board poster (60×90cm): showing rider advancement paths and incentive policies. Three materials with unified visuals conveying a positive and uplifting work environment | / |
+| F-020 | Compound[^4] | Design a set of offline store materials for a food & beverage brand: ① life-size cutout sign at entrance (height 180cm): brand mascot character, right hand giving thumbs up, left hand holding a delivery meal box, happy smiling expression; ② self-pickup area floor sticker (60cm diameter circle): including brand logo and 'Self-Pickup Waiting Area' + 'Please Maintain 1 Meter Distance' prompts, design 3 different styles; ③ QR code ordering table card (15×10cm triangular standing): including QR code and recommended signature dishes. Three materials with unified style | / |
+
+[^1]: **Ambiguous task**: the prompt is imprecise and vague, testing the model's ability to understand and creatively interpret design requirements
+[^2]: **Explicit task**: the prompt is precise, including specific brand name, style, color scheme, and composition requirements; tests the model's precise execution ability
+[^3]: **Edit-type task**: based on editing an existing image; tests the model's image understanding and local editing ability
+[^4]: **Compound task**: requires completing a primary design task plus scene extension or multiple proposals in one conversation; tests comprehensive ability
+
+---
+
+## 中文
+
 # 线下推广物料设计场景评测任务集（通用竞品版）
 
 > **说明**：本文档为通用竞品评测版本，已移除品牌特异性内容（品牌名、IP 形象等替换为通用描述），适用于对各 AI 设计工具的横向评测。编辑型需求任务所需参考图已内置于 `images/` 目录，可直接执行评测，无需手动准备图片。
@@ -9,7 +51,7 @@
 | F-003 | 模糊任务[^1] | 收银台那个扫码付款的小牌子能做吗 | |
 | F-004 | 模糊任务[^1] | 下周开业要拉横幅写什么热烈庆祝之类的 | |
 | F-005 | 模糊任务[^1] | 商场下个月搞美食节需要做一批道旗 | |
-| F-006 | 明确任务[^2] | 帮我设计一份智能点餐台卡，尺寸 20.5x14.5cm，参考上传的菜品图片，设计成适合该菜品的点餐台卡样式 | ![F006.jpg](images/F006.jpg) |
+| F-006 | 明确任务[^2] | 帮我设计一份智能点餐台卡，尺寸 20.5x14.5cm，参考上传的菜品图片，设计成适合该菜品的点餐台卡样式 | ![F006.jpg](../reference-images/F006.jpg) |
 | F-007 | 明确任务[^2] | 帮我根据以下活动方案做一个合适的线下活动宣传海报，尺寸为 60\*90cm，整体风格采用三维 C4D 风格·温暖写实。顶部标题"大鹿租电动车 单日低至10元起"，副标题"上下班骑大鹿 长租套餐更优惠"；重点表达租赁套餐（卡片形式，垂直顺序排序）：1. 灵活短租：5元/3时；2. 1日租：19元；3. 3日租：49元；4. 周租：109元；5. 月租：299元。给我出三个方案 | |
 | F-008 | 明确任务[^2] | 设计一款展架，尺寸 60\*160cm，主题为星空之旅，背景要有很多娃娃机，预留扫码二维码位置 | |
 | F-009 | 明确任务[^2] | 设计春节促销吊旗：尺寸 30\*60cm 竖版吊旗；主题 2026 马年春节；顶部：祥云纹装饰条；主标题"新春特惠"毛笔书法字体，金色；副标题"满100减20"红底白字爆炸贴样式；中部：马年生肖剪纸图案装饰；配色：中国红为主，金色点缀；风格：喜庆传统，节日氛围浓厚；打印要求：双面印刷，防水材质 | |

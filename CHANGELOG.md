@@ -1,8 +1,52 @@
 # CHANGELOG
 
-所有版本变更均记录于此文件，格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
+[English](#english) | [中文](#中文)
+
+All notable changes are documented here, following [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
+
+## English
+
+## [v1.1] — 2026-04-23
+
+### Added
+
+- **§9.5 Contamination Protocol**: explicit declaration that "StarSelect (星选)" is a fictional brand, all task prompts are original, and a time-window freeze mechanism (modeled after SWE-bench)
+- **§9.2 Generation latency data**: Round 1 per-product latency distribution table (partial; complete recording planned for Round 2)
+- **§10.1 Bootstrap confidence intervals**: 10,000-iteration task-resample Bootstrap (seed=42) — Lovart 56% (95% CI: 47%–64%) / Jimeng 27% (19%–35%) / Roboneo 19% (12%–27%); added SOTA reference annotation
+- **§10.7 Typical failure pattern analysis**: 3 failure patterns per product, 9 patterns total (L-1 to R-3); image case archive in `results/round-1/failure-cases/` (to be added in Phase 2)
+- **§12 Community ecosystem**: BIG-Bench-style community contribution mechanism (task.json schema / PR template / Verified subset / adversarial subset)
+- **§12 Evaluation dimension expansion table**: planned future dimensions (full latency, cost estimation, Circular Evaluation, internationalized task set)
+- **Appendix F Scenario Cards**: one standard card per scene (7 total), including data source, task count, evaluator configuration, win-rate summary, confidence, and notes (modeled after HELM)
+
+### Changed
+
+- **§7.4 Evaluator qualification disclosure**: added evaluator codes (E01–E10), role seniority ranges (Design 3–8 yrs / Engineering 4–10 yrs), and specialization overview; added "evaluator bias survey" mechanism (modeled after HELM / Chatbot Arena disclosure standards)
+- **§11.1 Evaluator anonymization**: `FST, LXD, ...` → `E01–E10`, reducing personal identification risk
+- **§11.2 Limitations wording**: replaced "low Kappa" with "low ticket concentration (gap <10%)", consistent with the §8.3 framework
+
+## [v1.0] — 2026-04-20
+
+### Initial Release
+
+- Complete paper first version, ~900 lines, 13 chapters + 5 appendices
+- Desensitization complete: 0 occurrences of internal company/product names
+- Data recalculation: 3-product cross-comparison after excluding 4th product — Lovart 56% / Jimeng 27% / Roboneo 19%
+- References: 12 BibTeX entries (HELM / SWE-bench / Chatbot Arena / MMLU / MMMU / MMBench / DrawBench / GenEval / GAIA / HumanEval / Fleiss / Landis)
+- Data corrections: Offline Promotion 62% → 63%; Online Marketing gap 50% → 45%; IP Character / Image Enhancement confidence ⚠️ → ❌
+
+## Versioning Policy
+
+- `v1.x`: incremental improvements to existing content (new sections, data corrections, methodology refinements)
+- `v2.0`: major update after Round 2, based on expanded evaluator pool and new scenes
+- Each release updates both PDF and Markdown in the `paper/` directory
+
+---
+
+## 中文
+
+所有版本变更均记录于此文件，格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
 ## [v1.1] — 2026-04-23
 
@@ -22,21 +66,16 @@
 - **§11.1 评测员代号匿名化**：`FST、LXD 等` → `E01-E10 等`，避免个人信息泄露风险
 - **§11.2 方法局限措辞**：将"Kappa 偏低"替换为"票数集中度偏低（差距 <10%）"，与 §8.3 框架保持一致
 
----
-
 ## [v1.0] — 2026-04-20
 
 ### 初版发布
 
 - 完整论文稿首版，约 900 行，含 13 章 + 5 附录
-- 脱敏完成：美团 / 美境 / 袋鼠团团 = 0 处
-- 数据重算：剔除美境AI后 3 家横评，Lovart 56% / 即梦 27% / Roboneo 19%
+- 脱敏完成：内部公司/产品名称 = 0 处
+- 数据重算：剔除第四家产品后 3 家横评，Lovart 56% / 即梦 27% / Roboneo 19%
 - 参考文献：12 条 BibTeX（HELM / SWE-bench / ChatBot Arena / MMLU / MMMU / MMBench / DrawBench / GenEval / GAIA / HumanEval / Fleiss / Landis）
 - GitHub 占位符填入：`SanJueLogic/ai-design-benchmark`
 - 数据修正：线下推广物料 62% → 63%；线上营销活动差距 50% → 45%；IP形象 / 商品图片美化置信度标记由 ⚠️ 改为 ❌
-- §10.4 完整重写：移除 Kappa 值（0.36 / 0.24 / 0.13 / 0.12），替换为票数集中度框架
-
----
 
 ## 版本号策略
 

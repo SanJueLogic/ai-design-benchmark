@@ -1,3 +1,45 @@
+# Online Marketing Design — Evaluation Task Set
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+> **Note**: This document is the generic cross-product evaluation version. Brand-specific content has been replaced with the fictional brand 'StarSelect / 星选'. Reference images for edit-type tasks are available in `../reference-images/` and can be used directly for evaluation.
+
+| ID | Task Type | Prompt | Reference Image |
+| :--- | :--- | :--- | :--- |
+| O-001 | Ambiguous[^1] | Make a banner for a Spring Festival cleaning campaign page; copy: 'Pre-sale cleaning, save ¥30 — platform helps you book a housecleaner first'; horizontal banner, approximately 9:2 ratio | / |
+| O-002 | Ambiguous[^1] | New Year's Eve 1-on-1 express delivery — total orders broke the historical peak! | / |
+| O-003 | Ambiguous[^1] | Help me generate an order peak-breaking poster with the date Dec 31 | / |
+| O-004 | Ambiguous[^1] | Spring Festival promotion banner — should have a festive New Year feel | / |
+| O-005 | Ambiguous[^1] | Year of the Horse launch screen image, brand style | / |
+| O-006 | Explicit[^2] | Generate a battle report; main color red, grand atmosphere; title says '战报 (Battle Report)'; below write congratulations to a team for winning the championship; add war flags and similar elements to build atmosphere | / |
+| O-007 | Explicit[^2] | A hand holding a speech bubble containing hearts, stars, and other warm elements; main color orange; add an appropriate font for the main title 'To your journey of growth, we want to hear your story' and subtitle '— Survey invitation for growth experience'; size: 750×300px | / |
+| O-008 | Explicit[^2] | Design a cover image for a sports check-in article; format 1065×456; overall yellow tone with some green; title: '2026 Q1 Sports Check-in' | / |
+| O-009 | Explicit[^2] | Design a WeChat red envelope cover with a 2026 Year of the Horse Spring Festival theme. Requirements: 1. Main color is Chinese red with gold accents 2. Center is a galloping horse paper-cut design 3. Top text '马到成功 (Instant Success)' in calligraphy font 4. Four corners decorated with traditional cloud and plum blossom elements 5. Size: 750×1334px 6. Style: Guochao (national trend) illustration style | / |
+| O-010 | Explicit[^2] | Create a delivery rider recruitment poster — Main title: 'Rider Recruitment' in the upper third, bold and powerful font; Subtitle: 'Earning over ¥10,000 a month is no dream', orange color; Image: a confident sunny delivery rider on a scooter with city skyline silhouette behind; Background: gradient from orange-yellow to warm white; Bottom info bar: black background white text 'Scan to Register' | / |
+| O-011 | Explicit[^2] | Hotel member day event main visual — Main title: 'Member Exclusive Day' center-upper, artistic font, gold gradient; Subtitle: 'Select hotels from 50% off', white sans-serif font; Visual elements: 3D gold crown floating above title; Mengxing mascot in hotel bellhop uniform, right hand in invitation gesture; Background: blurred premium hotel lobby; Color scheme: dark blue primary, gold accent; Size: horizontal 750×420px; Style: 3D render + flat graphic mixed | / |
+| O-012 | Edit-type[^3] | Based on the reference image, create a greeting card with a New Year's Day atmosphere | ![O012.png](../reference-images/O012.png) |
+| O-013 | Edit-type[^3] | Based on this style, generate a congratulatory announcement; content: warmly congratulate a business unit for achieving its annual daily order target; highlight in large font that the daily orders exceeded 2,500 | ![O013.png](../reference-images/O013.png) |
+| O-014 | Edit-type[^3] | Make the style more professional and reliable | ![O014.png](../reference-images/O014.png) |
+| O-015 | Explicit[^2] | Create a 3rd work anniversary commemorative poster — main title '入职三周年快乐！(Happy 3rd Work Anniversary!)' in cute cartoon font; subtitle 'Pursue what you love, discover more wonderful moments'; center features an original cute cartoon character (clay style, vivid colors) surrounded by anniversary-related elements; image style 3D art, size 960×640px | / |
+| O-016 | Edit-type[^3] | Adjust the color scheme of this event banner to Chinese New Year red-and-gold; keep the original copy and composition; replace the background with a festive fireworks scene; size unchanged | ![O016.png](../reference-images/O016.png) |
+| O-017 | Compound[^4] | Based on the image's style and composition, create a private gathering event poster for a certain city; this event collaborates with several well-known hotels; poster style should be simple, atmospheric, and textured, incorporating local city landmark elements | ![O017.png](../reference-images/O017.png) |
+| O-018 | Compound[^4] | We are a service department hosting a kickoff communication meeting for large model (LLM) exploration; need to design a backdrop with a technological feel representing the future direction; business lines include finance, hardware/software, supermarket, and B-side food & grocery; what proposals do you recommend? | / |
+| O-019 | Compound[^4] | Help design a complete set of visual materials for an e-commerce platform's '5.17 Foodie Festival' event: ① APP first-screen splash image (1080×1920px); ② Event list page banner (750×200px); ③ WeChat Moments ad image (1080×1080px); three images must be visually consistent, main brand yellow color, emphasizing the 'Foodie Festival' atmosphere and discount info 'up to ¥25 off orders over ¥50' | / |
+| O-020 | Compound[^4] | Design the main visual for a food delivery platform's 'Night Special' event, requiring two versions: dark version (for nighttime scenes, dark blue/black tones) and light version (daytime scenes, orange-yellow tones); images should include the Mengxing mascot and nighttime delivery scene elements; size 750×1000px; explain the applicable placement scenarios for each version | / |
+
+[^1]: **Ambiguous task**: the prompt is imprecise and vague, testing the model's ability to understand and creatively interpret design requirements
+[^2]: **Explicit task**: the prompt is precise, including specific brand name, style, color scheme, and composition requirements; tests the model's precise execution ability
+[^3]: **Edit-type task**: based on editing an existing image; tests the model's image understanding and local editing ability
+[^4]: **Compound task**: requires completing a primary design task plus scene extension or multiple proposals in one conversation; tests comprehensive ability
+
+---
+
+## 中文
+
 # 线上营销活动设计场景评测任务集（通用竞品版）
 
 > **说明**：本文档为通用竞品评测版本，已移除品牌特异性内容。品牌使用虚构品牌"星选"，吉祥物使用"萌星"。编辑型需求任务所需参考图已内置于 `images/` 目录，可直接执行评测，无需手动准备图片。
@@ -15,12 +57,12 @@
 | O-009 | 明确任务[^2] | 设计一个微信红包封面，主题为 2026 马年新春。要求：1. 主色调为中国红配金色点缀 2. 中央是一匹奔腾的骏马剪纸造型 3. 顶部文字"马到成功"使用书法字体 4. 四角装饰传统云纹和梅花元素 5. 尺寸：750x1334px 6. 风格：国潮插画风 | |
 | O-010 | 明确任务[^2] | 制作外卖骑手招募海报：主标题: "骑手招募令" 位于画面上方1/3处，字体粗黑有力 副标题: "月入过万不是梦" 主标题下方，橙色 图片描述: 画面中央是一位阳光自信的外卖骑手，骑着电动车，背后是城市天际线剪影 背景: 渐变色从橙黄到暖白 底部信息栏: 黑底白字显示"扫码报名 \| 当天入职 \| 日结工资" 二维码位置: 右下角 尺寸: 1080*1920px 风格: 扁平矢量插画 | |
 | O-011 | 明确任务[^2] | 酒店会员日活动主视觉设计：主标题: "会员专享日" 画面中央偏上，艺术字体，金色渐变 副标题: "精选酒店低至5折" 白色无衬线字体 视觉元素: 3D 风格的金色皇冠悬浮在标题上方；萌星吉祥物穿着酒店服务生制服，右手做邀请姿势；背景是模糊处理的高端酒店大堂 配色方案: 主色深蓝，强调色金色 尺寸: 横版 750*420px 风格: 3D 渲染+扁平图形混搭 | |
-| O-012 | 编辑型需求[^3] | 参考图片，做一张有元旦氛围的贺卡 | ![O012.png](images/O012.png) |
-| O-013 | 编辑型需求[^3] | 请参照这个样式生成一个喜报，喜报内容为：热烈庆祝某业务线达成年度日均单量目标，同时用大字体突出日均单量突破2500单 | ![O013.png](images/O013.png) |
-| O-014 | 编辑型需求[^3] | 请将风格变得更加专业、靠谱 | ![O014.png](images/O014.png) |
+| O-012 | 编辑型需求[^3] | 参考图片，做一张有元旦氛围的贺卡 | ![O012.png](../reference-images/O012.png) |
+| O-013 | 编辑型需求[^3] | 请参照这个样式生成一个喜报，喜报内容为：热烈庆祝某业务线达成年度日均单量目标，同时用大字体突出日均单量突破2500单 | ![O013.png](../reference-images/O013.png) |
+| O-014 | 编辑型需求[^3] | 请将风格变得更加专业、靠谱 | ![O014.png](../reference-images/O014.png) |
 | O-015 | 明确任务[^2] | 做一张入职三周年纪念海报，主标题"入职三周年快乐！"字体卡通可爱，副标题"坚持所爱，遇见更多精彩"，画面中央设计一个可爱的原创卡通人物形象（黏土风格，色彩鲜艳），四周加入和周年相关的元素，图片风格 3D 艺术，尺寸比例 960*640px | / |
-| O-016 | 编辑型需求[^3] | 将这张活动 banner 的色调调整为春节红金配色，保留原有文案和构图，替换背景为喜庆烟花场景，尺寸保持不变 | ![O016.png](images/O016.png) |
-| O-017 | 复合型需求[^4] | 参考图片风格和构图，输出某城市私享会活动海报，本次活动合作数家知名酒店，海报风格要求简约大气有质感，其中融入城市地标元素 | ![O017.png](images/O017.png) |
+| O-016 | 编辑型需求[^3] | 将这张活动 banner 的色调调整为春节红金配色，保留原有文案和构图，替换背景为喜庆烟花场景，尺寸保持不变 | ![O016.png](../reference-images/O016.png) |
+| O-017 | 复合型需求[^4] | 参考图片风格和构图，输出某城市私享会活动海报，本次活动合作数家知名酒店，海报风格要求简约大气有质感，其中融入城市地标元素 | ![O017.png](../reference-images/O017.png) |
 | O-018 | 复合型需求[^4] | 我们是服务部门，要做一个大模型方向探索的启动沟通会，需要设计一个有科技感、代表未来方向的启动会背板，业务包含金融、软硬件、超市、B端食杂业务等，你有什么推荐方案吗 | |
 | O-019 | 复合型需求[^4] | 帮我为某电商平台"5.17吃货节"活动设计一套完整的视觉物料，包含：① APP 首屏开屏图（1080*1920px）② 活动列表页 Banner（750*200px）③ 朋友圈广告图（1080*1080px），三张图需要风格统一，主色调品牌黄，突出"吃货节"氛围和折扣信息"最高满50减25" | |
 | O-020 | 复合型需求[^4] | 为某外卖平台"夜间专场"活动设计主视觉，要求输出两个版本：深色版（适合夜间场景，深蓝/黑色调）和浅色版（日间场景，橙黄色调），画面需包含萌星吉祥物、夜间配送场景元素，尺寸 750*1000px，并说明两版各自适用的投放场景 | |

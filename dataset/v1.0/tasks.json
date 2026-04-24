@@ -8,7 +8,9 @@
       "scene_id": "logo_design",
       "type": "ambiguous",
       "prompt": "生成一个古朴高级感的茶馆品牌 logo",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate a classic, high-end tea house brand logo"
     },
     {
       "id": "L-002",
@@ -16,7 +18,9 @@
       "scene_id": "logo_design",
       "type": "ambiguous",
       "prompt": "设计一个运动感的服饰行业图形 logo",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a sporty graphic logo for the apparel industry"
     },
     {
       "id": "L-003",
@@ -24,7 +28,9 @@
       "scene_id": "logo_design",
       "type": "ambiguous",
       "prompt": "一个美妆品牌 logo 设计，高端奢侈感、用柔美感的文字设计",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "A beauty brand logo design with high-end luxurious feel and elegant feminine typography"
     },
     {
       "id": "L-004",
@@ -32,7 +38,9 @@
       "scene_id": "logo_design",
       "type": "ambiguous",
       "prompt": "生成一个汽车品牌 logo，简约抽象的符号图形标识",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate a car brand logo — a minimal abstract symbolic graphic mark"
     },
     {
       "id": "L-005",
@@ -40,7 +48,9 @@
       "scene_id": "logo_design",
       "type": "ambiguous",
       "prompt": "参考这个 logo，做一个意境感的新中式餐饮品牌 logo，名字自由发挥",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Using this logo as reference, create an atmospheric new-Chinese-style restaurant brand logo; the name is your choice"
     },
     {
       "id": "L-006",
@@ -48,7 +58,9 @@
       "scene_id": "logo_design",
       "type": "explicit",
       "prompt": "生成茶馆品牌 logo，品牌名是\"美好时光\"纯中文字体设计标志，手写字体，古朴感，高级感，纯黑色文字，淡绿色背景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate a tea house brand logo; brand name is '美好时光' (Beautiful Moments), pure Chinese character lettering, handwritten style, classic and high-end feel, pure black text on light green background"
     },
     {
       "id": "L-007",
@@ -56,7 +68,9 @@
       "scene_id": "logo_design",
       "type": "explicit",
       "prompt": "生成服饰行业 logo，品牌名是\"NEXUS\"英文字体设计标志，简约字体，运动感十足，高级感设计，纯色文字，摩卡棕色背景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate an apparel brand logo; brand name is 'NEXUS', English font lettering, clean font, strongly sporty feel, premium design, solid text color on mocha brown background"
     },
     {
       "id": "L-008",
@@ -64,7 +78,9 @@
       "scene_id": "logo_design",
       "type": "explicit",
       "prompt": "生成美妆品牌 logo，中文品牌名是\"云禾\"衬线宋体字设计，简约曲线设计，柔美感，高端奢侈感，并在下方加上衬线字体英文\"YUNHE\"，将品牌名首字\"云\"图形化设计（放在文字的左边），高级感设计，纯色文字，黑色背景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate a beauty brand logo; Chinese brand name '云禾' in serif Song-style font, simple curved design, feminine and luxurious aesthetic, with serif English 'YUNHE' below; stylize the first character '云' (cloud) as a graphic mark placed to the left, premium design, solid text color, black background"
     },
     {
       "id": "L-009",
@@ -72,7 +88,9 @@
       "scene_id": "logo_design",
       "type": "explicit",
       "prompt": "生成汽车品牌 logo，品牌标识就是一个简约抽象的符号图形标识，几何图形结合椭圆形，运动感，极简图形，超级符号，高级感设计，纯色文字，纯色背景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate a car brand logo — a minimal abstract symbolic graphic mark using geometric shapes combined with an oval, dynamic feel, ultra-minimal, premium design, solid colors"
     },
     {
       "id": "L-010",
@@ -80,7 +98,9 @@
       "scene_id": "logo_design",
       "type": "explicit",
       "prompt": "请为\"清晨咖啡\"品牌设计一套 Logo，需要同时输出：① 彩色版（主色调暖棕色）；② 黑白版（适合浅色背景印刷）；③ 小图标版（仅图形部分，要求缩小至 32×32px 仍可识别品牌核心图形）",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a complete logo set for the 'Qingchen Coffee' brand with three outputs: ① full-color version (main color: warm brown); ② black-and-white version (for light-background printing); ③ mini icon version (graphics only, must remain recognizable at 32×32px)"
     },
     {
       "id": "L-011",
@@ -88,7 +108,9 @@
       "scene_id": "logo_design",
       "type": "edit",
       "prompt": "图一的 logo 和文字替换图二海报上的文字信息，保持和谐关系和色调",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Replace the logo and text from image 1 onto the poster in image 2, maintaining visual harmony and color tone"
     },
     {
       "id": "L-012",
@@ -96,7 +118,9 @@
       "scene_id": "logo_design",
       "type": "edit",
       "prompt": "纸袋上的 logo 内容都不变，载体换成\"围裙\"，保持这个被火烧焦边缘的设计风格",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Keep all logo content on the paper bag unchanged, change the carrier to an 'apron' while maintaining the scorched-edge design style"
     },
     {
       "id": "L-013",
@@ -104,7 +128,9 @@
       "scene_id": "logo_design",
       "type": "edit",
       "prompt": "给图一的 logo 匹配图二调性的场景",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Match the logo in image 1 with a scene that fits the visual tone of image 2"
     },
     {
       "id": "L-014",
@@ -112,7 +138,9 @@
       "scene_id": "logo_design",
       "type": "edit",
       "prompt": "logo 的名称修改为\"晴山咖啡\"，文字风格不变，背景换成蓝色调",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Change the logo name to 'Qingshan Coffee'; keep the text style unchanged, replace the background with a blue color scheme"
     },
     {
       "id": "L-015",
@@ -120,7 +148,9 @@
       "scene_id": "logo_design",
       "type": "edit",
       "prompt": "将图中的品牌名改为\"人间烟火\"，文字风格不变",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Logo Design",
+      "prompt_en": "Change the brand name in the image to '人间烟火' (Earthly Fireworks), keeping the text style unchanged"
     },
     {
       "id": "L-016",
@@ -128,7 +158,9 @@
       "scene_id": "logo_design",
       "type": "compound",
       "prompt": "设计一个汽车品牌 logo，用简约抽象的符号图形设计放到一辆超跑上看看效果，高级感画面",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a car brand logo using a minimal abstract symbolic graphic, then place it on a supercar to show the effect in a premium visual"
     },
     {
       "id": "L-017",
@@ -136,7 +168,9 @@
       "scene_id": "logo_design",
       "type": "compound",
       "prompt": "设计一个酒店民宿品牌 logo，简约图形设计，温暖有故事感，并延展一套同风格调性的 VI",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a hotel/bed-and-breakfast brand logo with simple graphic design and a warm, storytelling feel; extend a full VI suite in matching style and tone"
     },
     {
       "id": "L-018",
@@ -144,7 +178,9 @@
       "scene_id": "logo_design",
       "type": "compound",
       "prompt": "设计一个茶馆品牌 logo，品牌名是\"绿野鲜食\"纯中文字体设计标志，手写字体，古朴感，高级感，纯黑色文字，淡绿色背景，放到一个现代简约高级的白色店招上，新中式店铺，高级感建筑设计，清冷的画面氛围",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a tea house brand logo; brand name is '绿野鲜食' (Green Field Fresh Food) in pure Chinese characters, handwritten font, classic feel, pure black text on light green background; place it on a modern minimal premium white shop sign, new-Chinese-style store, premium architectural design, cool tranquil visual atmosphere"
     },
     {
       "id": "L-019",
@@ -152,7 +188,9 @@
       "scene_id": "logo_design",
       "type": "compound",
       "prompt": "生成互联网科技行业 logo，品牌标识是一个正负形图案（山海自然、循环），创意图形设计，简约，没有任何文字，有故事感，有实际意义，高级感设计，蓝色调背景，并将这个 logo 设计成互联网年度生态大会会场 16:9 的大屏幕上，大会主会场场馆大屏幕效果图，产出三个不同的方案",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Generate an internet tech industry logo — a positive-negative figure (mountains, sea, nature, cycle theme), creative graphic design, minimal, no text, storytelling, meaningful, premium design, blue-toned background; also design this logo on a 16:9 large screen for an internet annual ecology conference main venue. Produce three proposals"
     },
     {
       "id": "L-020",
@@ -160,7 +198,9 @@
       "scene_id": "logo_design",
       "type": "compound",
       "prompt": "设计一个简约的咖啡品牌 logo（品牌名\"晴山\"），然后将这个 logo 分别放置到：① 纸质咖啡杯包装效果图；② 帆布环保袋效果图；③ 店铺门头招牌效果图，出整体展示图",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Logo Design",
+      "prompt_en": "Design a minimal coffee brand logo (brand name 'Qingshan'), then place this logo on: ① a paper coffee cup packaging mockup; ② a canvas eco-bag mockup; ③ a store signage mockup — produce a complete showcase image"
     },
     {
       "id": "IP-001",
@@ -168,7 +208,9 @@
       "scene_id": "ip_character_design",
       "type": "ambiguous",
       "prompt": "给我设计一个具有创意的萌星吉祥物形象，背景和活动不限，鼓励大胆创新",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a creative Mengxing (StarSelect mascot) character; background and activity are open, encourage bold innovation"
     },
     {
       "id": "IP-002",
@@ -176,7 +218,9 @@
       "scene_id": "ip_character_design",
       "type": "ambiguous",
       "prompt": "设计一个萌星吉祥物参与活动的场景，可以是任何有趣的场合",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a scene of the Mengxing mascot participating in an activity; any fun occasion works"
     },
     {
       "id": "IP-003",
@@ -184,7 +228,9 @@
       "scene_id": "ip_character_design",
       "type": "ambiguous",
       "prompt": "给我设计一个萌星吉祥物与自然背景结合的场景，可包括山水、森林等",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a scene combining the Mengxing mascot with natural backgrounds such as mountains, rivers, or forests"
     },
     {
       "id": "IP-004",
@@ -192,7 +238,9 @@
       "scene_id": "ip_character_design",
       "type": "ambiguous",
       "prompt": "设计一个萌星吉祥物形象，风格现代，适合品牌广告推广",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a Mengxing mascot character in a modern style suitable for brand advertising"
     },
     {
       "id": "IP-005",
@@ -200,7 +248,9 @@
       "scene_id": "ip_character_design",
       "type": "ambiguous",
       "prompt": "给我设计一个萌星吉祥物形象，表现出多种情感表情，如高兴、困惑等",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a Mengxing mascot character expressing multiple emotions such as happiness, confusion, etc."
     },
     {
       "id": "IP-006",
@@ -208,7 +258,9 @@
       "scene_id": "ip_character_design",
       "type": "explicit",
       "prompt": "给我设计一个萌星吉祥物作为主角，舞动狮子头，双动作张力十足，神情兴奋喜庆，展现新春节日氛围，正方形比例，三维 C4D 风格，背景保持纯白",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design the Mengxing mascot performing a lion dance with two dynamic poses full of energy, excited and festive expression, celebrating Lunar New Year atmosphere; square ratio, 3D C4D style, pure white background"
     },
     {
       "id": "IP-007",
@@ -216,7 +268,9 @@
       "scene_id": "ip_character_design",
       "type": "explicit",
       "prompt": "设计一款龙年限定萌星吉祥物收藏级潮玩手办，整体为立体 C4D 风格。吉祥物以圆润可爱的手办比例呈现，坐姿稳重，身体略微前倾，双臂自然抬起，形成具有亲和力与互动感的经典潮玩姿态。身穿龙年主题卡通龙造型外壳服饰，整体结构简化但轮廓清晰，服饰表面采用高密度炫彩毛绒材质，绒毛短而细腻，局部融入镭射幻彩涂层，在不同角度下呈现柔和的彩虹反射。头部龙角为半透明镭射材质，内部带有轻微渐变与折射效果，龙须采用柔软的毛绒质感，与整体形成\"软硬材质对比\"。尾巴末端与脚部为蓝色幻彩渐变材质，具有轻微通透感。背景：彩色屏幕弥散炫彩背景风格光影，全局光照，展示柜级柔光，边缘高光勾勒轮廓",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a Year of the Dragon limited-edition Mengxing mascot collectible art toy in 3D C4D style. The mascot is presented in rounded cute toy proportions, seated steadily with a slight forward lean, arms naturally raised in a classic art toy pose. Wearing a Year of the Dragon themed cartoon dragon costume with simplified but clear outlines; surface uses high-density iridescent plush material with short fine fuzz and local laser holographic coating showing soft rainbow reflections at different angles. Dragon horns are semi-transparent laser material with subtle gradient and refraction; dragon whiskers in soft plush texture contrasting with harder materials. Tail and feet in blue holographic gradient material with slight translucency. Background: colorful screen diffused rainbow background, global illumination, display-cabinet soft light, edge highlights"
     },
     {
       "id": "IP-008",
@@ -224,7 +278,9 @@
       "scene_id": "ip_character_design",
       "type": "explicit",
       "prompt": "给我设计一个萌星吉祥物与品牌超级符号的超横主视觉，吉祥物穿着红色斗篷飞行在画面左边，主体是一个巨大的品牌超级符号，它不是实体，而是由亿万颗璀璨的金色粒子、星尘和光流汇聚而成的能量体，它悬浮在宇宙深处一个巨大的金色星系旋臂中心，周围环绕着轨道线和发光的星云，背景是深邃的宇宙，光影强烈，粒子感丰富，史诗级广角镜头，超横：2048*768",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a super-wide main visual featuring the Mengxing mascot with a brand super-symbol; mascot wears a red cape and flies on the left side; the main subject is a giant brand super-symbol formed not from solid material but from billions of brilliant golden particles, stardust, and light streams forming an energy body, floating in the center of a giant golden galactic spiral arm in deep space, surrounded by orbital lines and glowing nebulae; deep cosmic background, dramatic lighting, rich particle feel, epic wide-angle lens; ultra-wide format: 2048×768"
     },
     {
       "id": "IP-009",
@@ -232,7 +288,9 @@
       "scene_id": "ip_character_design",
       "type": "explicit",
       "prompt": "萌星吉祥物佩戴安全头盔，单手提着外卖纸袋，微笑站立于电动车旁。画面右侧为外卖配送车。整体背景为现代城市科技配送环境，光影柔和、结构协调，体现高效、温暖、专业的配送服务形象",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Mengxing mascot wearing a safety helmet, holding a delivery paper bag in one hand, smiling and standing beside a scooter. The right side shows a delivery vehicle. Background is a modern urban tech delivery environment with soft lighting and balanced composition, conveying an efficient, warm, and professional delivery service image"
     },
     {
       "id": "IP-010",
@@ -240,7 +298,9 @@
       "scene_id": "ip_character_design",
       "type": "explicit",
       "prompt": "给我设计一个中国新春龙年主题 3D 卡通风格场景，夜晚星空下的国风覆雪古巷（屋顶积雪、红灯笼点缀、地面有行人与年货摊位），背景绽放蓝紫色烟花、漂浮天灯；主体保留红金配色祥瑞金纹巨龙（龙头精致、龙身舒展）、手持花灯笼的双丸子头卡通女孩（坐于屋顶）；将原骑龙的角色替换为萌星吉祥物，造型圆润可爱，身披红金中式装饰（带中国结元素），神态欢快，比例、3D 卡通风格、暖光光感与原画面完全统一，自然骑于龙身，整体氛围喜庆温馨，细节精致，色彩鲜亮饱和",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Design a Chinese New Year Dragon Year themed 3D cartoon scene: a snowy ancient alley at night under a starry sky (snow on rooftops, red lanterns, pedestrians and New Year market stalls on the ground), with blue-purple fireworks and floating sky lanterns in the background; keep the original red-gold auspicious dragon (detailed dragon head, extended body) and a twin-bun cartoon girl holding a flower lantern sitting on a rooftop; replace the original dragon-riding character with the Mengxing mascot — round and cute, wearing red-gold Chinese-style decorations with Chinese knot elements, cheerful expression; proportions, 3D cartoon style, and warm lighting must be consistent with the original; naturally riding the dragon, overall festive and warm atmosphere, rich details, vivid saturated colors"
     },
     {
       "id": "IP-011",
@@ -248,7 +308,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "参考图中的 IP 形象，帮我把吉祥物的站姿改成坐在地面上的姿态",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Based on the IP character in the reference image, change the mascot's standing pose to sitting on the ground"
     },
     {
       "id": "IP-012",
@@ -256,7 +318,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "参考图中的 IP 形象，帮我把服装换成夏日度假风格：花衬衫、白T恤、短裤和拖鞋",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Based on the IP character in the reference image, change the outfit to summer vacation style: Hawaiian shirt, white T-shirt, shorts, and sandals"
     },
     {
       "id": "IP-013",
@@ -264,7 +328,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "参考图中的 IP 形象，帮我把手中的雨伞改得更大些，颜色换成红色和白色相间的",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Based on the IP character in the reference image, make the umbrella larger and change its color to alternating red and white"
     },
     {
       "id": "IP-014",
@@ -272,7 +338,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "参考图中的 IP 形象，帮我把吉祥物的表情改成开心大笑",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Based on the IP character in the reference image, change the mascot's expression to a big happy laugh"
     },
     {
       "id": "IP-015",
@@ -280,7 +348,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "参考图中的 IP 形象，保持角色不变，帮我给吉祥物头顶加上透明电竞护目镜，戴着电竞耳机，带上手表",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Based on the IP character in the reference image, keeping the character unchanged, add transparent gaming goggles on the mascot's head, gaming headphones, and a watch"
     },
     {
       "id": "IP-016",
@@ -288,7 +358,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "帮我把这张 IP 形象图抠图出来，把背景改成夏日海边的风格背景",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Please remove the background from this IP character image and replace it with a summer beach style background"
     },
     {
       "id": "IP-017",
@@ -296,7 +368,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "帮我把图片中的站姿改成小天鹅舞蹈经典单脚点地动作，双手环抱",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Change the standing pose in the image to the classic Swan Lake single-leg point stance, arms wrapped around"
     },
     {
       "id": "IP-018",
@@ -304,7 +378,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "帮我把这张图片做成头像裁切的正方形尺寸 1:1，256*256px",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Please crop this image to a square 1:1 ratio at 256×256px"
     },
     {
       "id": "IP-019",
@@ -312,7 +388,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "帮我把图片生成动画",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Turn this image into an animation"
     },
     {
       "id": "IP-020",
@@ -320,7 +398,9 @@
       "scene_id": "ip_character_design",
       "type": "edit",
       "prompt": "帮我把这个图片做成 GIF 表情包",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "IP Character Design",
+      "prompt_en": "Turn this image into a GIF emoji sticker"
     },
     {
       "id": "BA-001",
@@ -328,7 +408,9 @@
       "scene_id": "badge_trophy_design",
       "type": "ambiguous",
       "prompt": "设计一个具有品牌吉祥物的徽章，画面可融入品牌元素，整体风格自由发挥",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a badge featuring the brand mascot with brand elements incorporated; overall style is open"
     },
     {
       "id": "BA-002",
@@ -336,7 +418,9 @@
       "scene_id": "badge_trophy_design",
       "type": "ambiguous",
       "prompt": "设计一个结合卡通 IP 形象的奖杯，突出创意表现与视觉冲击力",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a trophy combining a cartoon IP character, emphasizing creative expression and visual impact"
     },
     {
       "id": "BA-003",
@@ -344,7 +428,9 @@
       "scene_id": "badge_trophy_design",
       "type": "ambiguous",
       "prompt": "设计一个简洁且富有现代感的卡通动物 IP 徽章，适合年轻消费群体",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a simple, modern cartoon animal IP badge suitable for young consumer groups"
     },
     {
       "id": "BA-004",
@@ -352,7 +438,9 @@
       "scene_id": "badge_trophy_design",
       "type": "ambiguous",
       "prompt": "设计一个融合中秋节元素与品牌 IP 的徽章，体现传统与现代结合的视觉风格",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a badge combining Mid-Autumn Festival elements with a brand IP, reflecting a visual style that blends tradition with modernity"
     },
     {
       "id": "BA-005",
@@ -360,7 +448,9 @@
       "scene_id": "badge_trophy_design",
       "type": "ambiguous",
       "prompt": "设计一个以品牌 IP 形象为核心的奖杯，造型独特，符合品牌气质与时尚感",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a trophy centered on the brand IP character with a unique shape that matches the brand's character and sense of fashion"
     },
     {
       "id": "BA-006",
@@ -368,7 +458,9 @@
       "scene_id": "badge_trophy_design",
       "type": "explicit",
       "prompt": "设计一款徽章，需包含品牌吉祥物\"萌星\"元素，整体风格现代简洁",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a badge including the brand mascot 'Mengxing' element; overall style is modern and clean"
     },
     {
       "id": "BA-007",
@@ -376,7 +468,9 @@
       "scene_id": "badge_trophy_design",
       "type": "explicit",
       "prompt": "设计一款奖杯，融入卡通 IP 形象，外观简洁现代，适合颁奖典礼使用",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a trophy incorporating a cartoon IP character, with a clean and modern appearance suitable for award ceremonies"
     },
     {
       "id": "BA-008",
@@ -384,7 +478,9 @@
       "scene_id": "badge_trophy_design",
       "type": "explicit",
       "prompt": "设计一款徽章，将传统文化元素与品牌 IP 结合，体现品牌文化的现代化表达",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a badge combining traditional cultural elements with a brand IP, expressing the modern interpretation of brand culture"
     },
     {
       "id": "BA-009",
@@ -392,7 +488,9 @@
       "scene_id": "badge_trophy_design",
       "type": "explicit",
       "prompt": "设计一个简洁的矢量风格奖杯，并融入品牌 IP 元素，适用于品牌活动场景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a clean vector-style trophy with brand IP elements incorporated, suitable for brand event scenarios"
     },
     {
       "id": "BA-010",
@@ -400,7 +498,9 @@
       "scene_id": "badge_trophy_design",
       "type": "explicit",
       "prompt": "设计一组系列徽章，每枚徽章代表不同的卡通 IP 角色形象或不同角色形态（至少3款）",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a series of badges, each representing a different cartoon IP character or different character form (at least 3 designs)"
     },
     {
       "id": "BA-011",
@@ -408,7 +508,9 @@
       "scene_id": "badge_trophy_design",
       "type": "edit",
       "prompt": "调整徽章中的 IP 元素，去掉吉祥物手中的道具，动作变成挥手",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Adjust the IP element in the badge: remove the prop from the mascot's hand, change the pose to waving"
     },
     {
       "id": "BA-012",
@@ -416,7 +518,9 @@
       "scene_id": "badge_trophy_design",
       "type": "edit",
       "prompt": "修改奖杯材质，水晶切面材质改为玫瑰金切面材质，使整体更现代、更具创意",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Change the trophy material from crystal faceted to rose gold faceted, making it more modern and creative"
     },
     {
       "id": "BA-013",
@@ -424,7 +528,9 @@
       "scene_id": "badge_trophy_design",
       "type": "edit",
       "prompt": "调整奖杯材质为铂金主题，底座变成磨砂黑曜石材质，使其更符合品牌色体系，并体现高级感与独特性",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Change the trophy material to a platinum theme; make the base matte black obsidian, better matching the brand color system while conveying premium feel and uniqueness"
     },
     {
       "id": "BA-014",
@@ -432,7 +538,9 @@
       "scene_id": "badge_trophy_design",
       "type": "edit",
       "prompt": "优化奖杯切面细节，扩大分辨率，增加黑色背景，设计成产品宣传的奖杯主视觉，使整体视觉更具吸引力",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Refine the trophy facet details, increase resolution, add a black background, and design it as a trophy hero visual for product promotion to make the overall visual more appealing"
     },
     {
       "id": "BA-015",
@@ -440,7 +548,9 @@
       "scene_id": "badge_trophy_design",
       "type": "edit",
       "prompt": "修改徽章图案中的 IP 形象道具，将手中的物品更换为手捧鲜花，补充更有创意的元素",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Modify the IP character prop in the badge: change the item in the hand to holding flowers, and add more creative elements"
     },
     {
       "id": "BA-016",
@@ -448,7 +558,9 @@
       "scene_id": "badge_trophy_design",
       "type": "compound",
       "prompt": "设计一款品牌活动主题徽章，主视觉为品牌吉祥物\"萌星\"。徽章整体为圆形金属徽章结构，画面中心是萌星正面站立挥手，表情开心，佩戴活动主题挂绳或活动徽章。背景为品牌活动现场，包含舞台灯光、活动旗帜、气球装饰和品牌主色视觉氛围。整体设计要突出\"品牌活动限定徽章\"的感觉，画面完整、识别度高、适合实体徽章制作",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a brand event themed badge with the brand mascot 'Mengxing' as the main visual. The badge is a round metal badge; the center shows Mengxing standing facing forward and waving with a happy expression, wearing an event-themed lanyard or badge. Background shows brand event venue including stage lighting, event flags, balloon decorations, and brand primary color visual atmosphere. The design should highlight the 'brand event limited badge' feel, with a complete composition, high recognizability, and suitable for physical badge production"
     },
     {
       "id": "BA-017",
@@ -456,7 +568,9 @@
       "scene_id": "badge_trophy_design",
       "type": "compound",
       "prompt": "设计一款活动签到纪念徽章，主角为卡通动物 IP。徽章采用盾形结构，IP 角色站在画面中心，手举活动欢迎牌，整体表情友好、亲切。背景结合品牌活动签到场景，包含打卡墙、活动装置、彩带和活动标题区。整体风格简洁明快，具有品牌纪念感和收藏属性",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design an event check-in commemorative badge featuring a cartoon animal IP. The badge uses a shield shape; the IP character stands in the center holding a welcome sign with a friendly and approachable expression. Background incorporates brand event check-in scene elements including a selfie wall, event installations, streamers, and an event title area. Overall style is clean and bright, with brand commemorative and collectible appeal"
     },
     {
       "id": "BA-018",
@@ -464,7 +578,9 @@
       "scene_id": "badge_trophy_design",
       "type": "compound",
       "prompt": "设计一款品牌荣誉奖杯，将品牌吉祥物形象与品牌标志融合。奖杯主体为现代简洁立式结构，顶部为吉祥物立体形象，下方基座融入品牌符号与品牌主色。整体材质以金属和透明亚克力为主，奖杯外形现代、精致，适合品牌活动颁奖场景，强调高级感、辨识度和可落地制作感",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a brand honor trophy integrating the brand mascot with the brand logo. The trophy main body is a modern clean vertical structure topped with a 3D mascot figure; the lower base incorporates the brand symbol and primary brand color. Overall materials are primarily metal and transparent acrylic; the trophy shape is modern and refined, suitable for brand event award ceremonies, emphasizing premium feel, recognizability, and physical producibility"
     },
     {
       "id": "BA-019",
@@ -472,7 +588,9 @@
       "scene_id": "badge_trophy_design",
       "type": "compound",
       "prompt": "设计一款\"品牌之星\"主题奖杯，奖杯顶部为品牌吉祥物立体形象，吉祥物表情自信可爱。奖杯主体为竖向流线型结构，结合品牌 logo 轮廓、品牌辅助图形和金属质感基座。整体设计要求简洁现代，适合品牌内部表彰和活动颁奖使用",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a 'Brand Star' themed trophy; the trophy top features a 3D mascot figure with a confident and cute expression. The main body is a vertical streamlined structure incorporating the brand logo outline, brand auxiliary graphics, and a metal-textured base. The overall design should be clean and modern, suitable for internal brand recognition and event award ceremonies"
     },
     {
       "id": "BA-020",
@@ -480,7 +598,9 @@
       "scene_id": "badge_trophy_design",
       "type": "compound",
       "prompt": "设计一款联动奖杯，融合两个品牌卡通 IP 形象。奖杯整体采用双角色联动构图，两个 IP 角色共同站在奖杯主体上，有明显互动关系（如并肩站立、击掌庆祝或共同举起品牌标识）。整体奖杯结构现代简洁，基座融入品牌元素和联名主题，强调跨 IP 合作感、纪念感和收藏感",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Badge & Trophy Design",
+      "prompt_en": "Design a crossover trophy integrating two brand cartoon IP characters. The overall trophy uses a dual-character composition; two IP characters stand together on the main body with an obvious interactive relationship (e.g., side by side, high-fiving, or jointly holding up a brand symbol). The overall trophy structure is modern and clean; the base incorporates brand elements and the crossover theme, emphasizing cross-IP collaboration feel, commemorative value, and collectibility"
     },
     {
       "id": "SP-001",
@@ -488,7 +608,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "我们店新出了一款芋泥啵啵奶茶，帮我做个图发朋友圈",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Our store just launched a new taro bubble milk tea — help me make a post to share on WeChat Moments"
     },
     {
       "id": "SP-002",
@@ -496,7 +618,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "老板让我做个小龙虾的团购图，要突出99块钱3斤",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "My boss asked me to make a group-buy image for crayfish — needs to highlight 99 yuan for 3 jin"
     },
     {
       "id": "SP-003",
@@ -504,7 +628,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "帮我设计一下我们火锅店的套餐海报，2-3人餐那种",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Help me design a set meal poster for our hotpot restaurant, the kind for 2-3 people"
     },
     {
       "id": "SP-004",
@@ -512,7 +638,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "做一张水果拼盘的图，要看起来新鲜",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Make an image of a fruit platter that looks fresh"
     },
     {
       "id": "SP-005",
@@ -520,7 +648,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "我开了个炸鸡店，需要一张门店头图",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "I opened a fried chicken shop and need a store header image"
     },
     {
       "id": "SP-006",
@@ -528,7 +658,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "想做个烧烤的海报，夜宵那种感觉",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Want to make a barbecue poster with that late-night snack vibe"
     },
     {
       "id": "SP-007",
@@ -536,7 +668,9 @@
       "scene_id": "product_poster_design",
       "type": "ambiguous",
       "prompt": "生鲜店周年庆搞个特价海报，要喜庆",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Make a special price poster for a fresh produce store's anniversary celebration — needs a festive feel"
     },
     {
       "id": "SP-008",
@@ -544,7 +678,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "制作珍珠奶茶新品海报：商品: 一杯珍珠奶茶，透明塑料杯，可见黑糖珍珠和奶茶分层；构图: 商品居中，45度侧面角度；背景: 渐变色（浅棕到奶白），简洁干净；光影: 柔和侧光，杯身有高光反射，底部有轻微倒影；文字区域: 顶部\"新品上市\"标签，中部品名\"黑糖珍珠奶茶\"，底部价格\"¥18\"+\"限时特惠\"；尺寸: 1080*1350px 竖版；风格: 清新简约，ins 风格",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Create a new bubble tea product poster — Product: one pearl milk tea, transparent plastic cup with visible black sugar pearls and tea-milk layers; Composition: product centered, 45-degree side angle; Background: gradient (light brown to milk white), clean and simple; Lighting: soft side light with highlight reflection on cup, slight reflection at bottom; Text areas: 'New Launch' label at top, product name 'Black Sugar Pearl Milk Tea' in center, '¥18' + 'Limited Time Offer' at bottom; Size: 1080×1350px vertical; Style: fresh and minimal, Instagram style"
     },
     {
       "id": "SP-009",
@@ -552,7 +688,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "设计麻辣小龙虾团购海报：商品: 一盘红亮的麻辣小龙虾，堆满白色搪瓷盘；摆盘: 小龙虾堆叠摆放，撒上白芝麻和香菜点缀；背景: 深色木纹桌面，旁边摆放啤酒杯和柠檬片；光线: 暖色调顶光，突出食材油亮质感；文字信息: 爆炸贴\"限时秒杀\"，商品名\"招牌麻辣小龙虾 3斤装\"，原价¥199，现价¥99大字红色，底部\"仅限今日 \\",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Design a spicy crayfish group-buy poster — Product: a plate of bright red spicy crayfish piled in a white enamel plate; Plating: crayfish stacked with white sesame and cilantro garnish; Background: dark wood grain table with a beer glass and lemon slices; Lighting: warm top light highlighting the glossy texture of the ingredients; Text: explosion badge 'Flash Sale', product name 'Signature Spicy Crayfish 3 jin', original price ¥199, current price ¥99 in large red text, bottom 'Today Only'"
     },
     {
       "id": "SP-010",
@@ -560,7 +698,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "设计精品水果礼盒海报：商品: 高档水果礼盒，打开展示状态；内容物: 车厘子、芒果、蓝莓、奇异果等精致摆放；包装: 红色礼盒，金色丝带装饰；背景: 纯净米白色；光线: 柔和自然光，水果表面有光泽水珠；文案: 顶部\"新鲜直达品质之选\"，中部\"进口精品水果礼盒\"，价格\"¥298/盒\"，卖点\"顺丰冷链 \\",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Design a premium fruit gift box poster — Product: high-end fruit gift box in open display state; Contents: cherries, mangoes, blueberries, kiwi elegantly arranged; Packaging: red gift box with gold ribbon; Background: pure off-white; Lighting: soft natural light with shiny water droplets on fruit surface; Copy: top 'Premium Selection Freshly Delivered', center 'Imported Premium Fruit Gift Box', price '¥298/box', selling point 'SF Express cold chain delivery'"
     },
     {
       "id": "SP-011",
@@ -568,7 +708,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "制作火锅套餐商品海报：主体: 鸳鸯锅俯拍图，红汤白汤分明；配菜展示: 环绕火锅摆放肥牛卷、毛肚、虾滑、蔬菜拼盘；文字布局: 顶部横幅\"冬季暖心套餐\"，中央\"2-3人精选套餐\"，价格区\"套餐价¥168\"，包含内容小字\"含锅底+6荤4素+饮料\"，底部\"到店即享\"；尺寸: 1080*1920px 竖版；风格: 中式美食风，暖色调",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Create a hotpot set meal product poster — Main subject: bird's-eye view of yin-yang hotpot with clear red and white soup separation; Side dishes: beef rolls, beef tripe, shrimp paste, vegetable platter arranged around the pot; Text layout: top banner 'Winter Warmth Set Meal', center '2-3 Person Premium Set', price section 'Set Meal Price ¥168', details in small text 'includes pot base + 6 meat + 4 vegetable + drinks', bottom 'Dine in and enjoy immediately'; Size: 1080×1920px vertical; Style: Chinese food aesthetic, warm tones"
     },
     {
       "id": "SP-012",
@@ -576,7 +718,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "设计蛋糕店门店头图：主体: 精美多层生日蛋糕，奶油裱花装饰；展示方式: 蛋糕放在旋转展示台上；配景: 旁边摆放几款小蛋糕和马卡龙；背景: 浅粉色渐变，梦幻柔和；文字信息: 店铺名\"甜蜜时光烘焙坊\"，标语\"每一口都是幸福的味道\"，服务\"生日蛋糕 \\",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Design a cake shop store header image — Main subject: exquisite multi-layer birthday cake with cream piping decoration; Display: cake on a rotating display stand; Setting: a few small cakes and macarons beside it; Background: light pink gradient, dreamy and soft; Text: store name 'Sweet Time Bakery', tagline 'Every bite is the taste of happiness', service 'Birthday Cake custom orders'"
     },
     {
       "id": "SP-013",
@@ -584,7 +728,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "设计日料寿司拼盘海报：商品: 精致寿司拼盘，12-16个品种；摆盘: 黑色长方形日式餐盘，寿司整齐排列；品类: 三文鱼、金枪鱼、鳗鱼、虾、蟹子等；背景: 深灰色日式纹理背景；文字设计: 日文装饰\"鮨\"毛笔字，主标题\"匠心寿司拼盘\"，副标题\"新鲜食材现点现做\"，价格\"¥168/份\"；尺寸: 1080*1080px；风格: 日式简约，高级感",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Design a Japanese sushi platter poster — Product: exquisite sushi platter with 12-16 varieties; Plating: black rectangular Japanese-style tray, neatly arranged; Types: salmon, tuna, eel, shrimp, tobiko, etc.; Background: dark gray Japanese-textured background; Text design: Japanese decorative '鮨' calligraphy character, main title 'Artisanal Sushi Platter', subtitle 'Fresh ingredients, made to order', price '¥168/serving'; Size: 1080×1080px; Style: Japanese minimalism, premium feel"
     },
     {
       "id": "SP-014",
@@ -592,7 +738,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "设计健身房促销海报：主视觉: 健身房器械区环境照；人物: 可选加入健身剪影；文字信息: 主标题\"开启健康生活\"，价格方案: 月卡¥299/季卡¥699/年卡¥1999（原价¥3600），赠送\"赠3节私教课+体测1次\"，底部地址+电话；尺寸: 1080*1920px；风格: 运动活力风",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Design a gym promotional poster — Main visual: gym equipment area interior shot; Character: optionally add a fitness silhouette; Text: main title 'Start a Healthy Life', pricing: monthly ¥299 / quarterly ¥699 / annual ¥1999 (original ¥3600), bonus 'Includes 3 personal training sessions + 1 body assessment', bottom address + phone; Size: 1080×1920px; Style: sporty and energetic"
     },
     {
       "id": "SP-015",
@@ -600,7 +748,9 @@
       "scene_id": "product_poster_design",
       "type": "explicit",
       "prompt": "制作洗车服务团购海报：主体: 汽车正在被清洗的画面，泡沫丰富；元素: 高压水枪、泡沫、工作人员剪影；背景: 蓝色科技感渐变；文字排版: 主标题\"专业洗车焕然一新\"，服务内容\"外观清洗+内饰吸尘+轮毂清洁\"，团购价¥29（原价¥58）；尺寸: 1080*1080px；风格: 汽车服务专业风",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Create a car wash service group-buy poster — Main subject: car being washed with rich foam; Elements: high-pressure water gun, foam, worker silhouette; Background: blue tech-feel gradient; Text layout: main title 'Professional Car Wash, Brand New Look', service 'Exterior wash + interior vacuum + wheel cleaning', group-buy price ¥29 (original ¥58); Size: 1080×1080px; Style: professional automotive service"
     },
     {
       "id": "SP-016",
@@ -608,7 +758,9 @@
       "scene_id": "product_poster_design",
       "type": "edit",
       "prompt": "帮我把这两个图片设计成一个海报",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Please help me combine these two images into a single poster"
     },
     {
       "id": "SP-017",
@@ -616,7 +768,9 @@
       "scene_id": "product_poster_design",
       "type": "edit",
       "prompt": "帮我参考图2的模板，用图1的商品图生成一个海报，要求体现\"年度优质商品\"主题，在图中注明\"由平台用户投票产生\"字样",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Based on the template in image 2, use the product image in image 1 to generate a poster with the theme 'Annual Quality Product'; include the text 'Selected by platform users through voting'"
     },
     {
       "id": "SP-018",
@@ -624,7 +778,9 @@
       "scene_id": "product_poster_design",
       "type": "edit",
       "prompt": "小鲤鱼海鲜酒家，收藏打卡送爆珠豆腐花",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Xiaoliyu Seafood Restaurant — save and check in to receive a complimentary tofu pudding with popping boba"
     },
     {
       "id": "SP-019",
@@ -632,7 +788,9 @@
       "scene_id": "product_poster_design",
       "type": "edit",
       "prompt": "做商品海报：请给我提供一个如图所示的海报模版",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Create a product poster: please provide me with a poster template as shown in the reference image"
     },
     {
       "id": "SP-020",
@@ -640,7 +798,9 @@
       "scene_id": "product_poster_design",
       "type": "compound",
       "prompt": "帮我做五张门店的头图，要求内容包含文字\"玲辉洗护\"，风格简明，突出品牌特色，比例 1:1",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Poster Design",
+      "prompt_en": "Help me create five store header images; content must include the text 'Linghui Washing & Care', style clean and simple, highlighting brand characteristics, 1:1 ratio"
     },
     {
       "id": "B-001",
@@ -648,7 +808,9 @@
       "scene_id": "product_image_enhancement",
       "type": "ambiguous",
       "prompt": "美化一下",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Touch it up"
     },
     {
       "id": "B-002",
@@ -656,7 +818,9 @@
       "scene_id": "product_image_enhancement",
       "type": "ambiguous",
       "prompt": "干净点",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Make it cleaner"
     },
     {
       "id": "B-003",
@@ -664,7 +828,9 @@
       "scene_id": "product_image_enhancement",
       "type": "ambiguous",
       "prompt": "不改变商品包装信息，帮我优化这张商品图片，使它更美观",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Without changing the product packaging information, help me enhance this product image to make it more appealing"
     },
     {
       "id": "B-004",
@@ -672,7 +838,9 @@
       "scene_id": "product_image_enhancement",
       "type": "ambiguous",
       "prompt": "不改变商品包装信息，帮我优化这张商品图片，使它更美观",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Without changing the product packaging information, help me enhance this product image to make it more appealing"
     },
     {
       "id": "B-005",
@@ -680,7 +848,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "把这个图做成可以作为产品主图，不改变商品包装信息，帮我优化这张商品图片使它更美观，去掉反光，边缘变整齐，变正，颜色对比度好看，要求图片尺寸 1600\\*1600，商品主体居中占比 0.9，白底图",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Make this suitable as a main product image — without changing the product packaging information, enhance this product image: remove reflections, straighten edges, correct alignment, improve color contrast; size requirement 1600×1600px, product centered at 0.9 proportion, white background"
     },
     {
       "id": "B-006",
@@ -688,7 +858,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "把这盒草莓里面的草莓拿出来，放在木盘子里做一张电商白底图，要求草莓稍微大一点，一定要真实，保留枯叶和白色部分，数量大概14个，随意放在一个木盘子里",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Take the strawberries out of this box, arrange them on a wooden tray for an e-commerce white-background image; strawberries should be slightly larger, must look realistic, retain dried leaves and white parts, approximately 14 pieces, casually placed on a wooden tray"
     },
     {
       "id": "B-007",
@@ -696,7 +868,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "消除这张海报中人物图像遮住边框的一小部分",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Remove the small part of the person in this poster that overlaps with the border"
     },
     {
       "id": "B-008",
@@ -704,7 +878,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "提高亮度和清晰度，床单平整一些",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Increase brightness and clarity; make the bed sheets look smoother"
     },
     {
       "id": "B-009",
@@ -712,7 +888,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "让这个图片更清晰，在手机上看的时候不要太糊",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Make this image clearer so it doesn't look blurry on a mobile phone"
     },
     {
       "id": "B-010",
@@ -720,7 +898,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "美化图片，尺寸为 3333x2500，空间感大，画面明亮温馨，干净整洁，床单平整无褶皱，未改变原有物品样子",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Enhance the image — size 3333×2500, strong sense of space, bright and cozy scene, clean and tidy, bed sheets flat without wrinkles, without changing the original items"
     },
     {
       "id": "B-011",
@@ -728,7 +908,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "打开窗帘，提高清晰度",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Open the curtains and increase clarity"
     },
     {
       "id": "B-012",
@@ -736,7 +918,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "仅保留产品，将产品放在图片中间，其余全部消除",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Keep only the product, place the product in the center of the image, remove everything else"
     },
     {
       "id": "B-013",
@@ -744,7 +928,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "提高亮度，杯子平整一些",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Increase brightness; make the cup look smoother"
     },
     {
       "id": "B-014",
@@ -752,7 +938,9 @@
       "scene_id": "product_image_enhancement",
       "type": "explicit",
       "prompt": "把这个图做成可以作为产品主图，不改变商品包装信息，帮我优化这张商品图片使它更美观，去掉反光，边缘变整齐，变正，颜色对比度好看，要求图片尺寸 1600\\*1600，商品主体居中占比 0.9，白底图，只要这个商品",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Make this suitable as a main product image — without changing the product packaging information, enhance this product image: remove reflections, straighten edges, correct alignment, improve color contrast; size requirement 1600×1600px, product centered at 0.9 proportion, white background; keep only this product"
     },
     {
       "id": "B-015",
@@ -760,7 +948,9 @@
       "scene_id": "product_image_enhancement",
       "type": "edit",
       "prompt": "根据这个图片的实物图，帮我制作它的电商白底图，只有糕点不要带塑料包装",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Based on this product photo, help me create an e-commerce white-background image — pastry only, no plastic packaging"
     },
     {
       "id": "B-016",
@@ -768,7 +958,9 @@
       "scene_id": "product_image_enhancement",
       "type": "edit",
       "prompt": "背景加上月亮星空",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Add a moon and starry sky to the background"
     },
     {
       "id": "B-017",
@@ -776,7 +968,9 @@
       "scene_id": "product_image_enhancement",
       "type": "compound",
       "prompt": "请根据这两张家装平面图，设计完整的家装设计方案，三代同堂现代简约风格，主要色调明亮温馨，带有高级质感",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Based on these two floor plan images, design a complete home interior design solution in modern minimalist style for a multi-generational family; bright and cozy main color tones with a premium feel"
     },
     {
       "id": "B-018",
@@ -784,7 +978,9 @@
       "scene_id": "product_image_enhancement",
       "type": "compound",
       "prompt": "图片风格：\"写实摄影\"，把图片调整成高清画质，并且补全小狗面前的电脑和坐着的椅子",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Image style: 'realistic photography' — adjust to high-definition quality, and complete the laptop and chair in front of the puppy"
     },
     {
       "id": "B-019",
@@ -792,7 +988,9 @@
       "scene_id": "product_image_enhancement",
       "type": "compound",
       "prompt": "设计正在滚一个发光的彩蛋，彩蛋上写有年份数字，滚动轨迹形成一个\"圆圈\"，寓意\"圈住好运、圈出快乐\"。动态版本可以让彩蛋越滚越大，最后炸开变成品牌元素组成的烟花",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "Design an animation of a glowing Easter egg rolling; the year number is on the egg, the rolling path forms a 'circle', symbolizing 'trapping good luck, circling happiness'; the dynamic version shows the egg rolling and growing larger, then bursting into fireworks made of brand elements"
     },
     {
       "id": "B-020",
@@ -800,7 +998,9 @@
       "scene_id": "product_image_enhancement",
       "type": "compound",
       "prompt": "一杯透明外卖杯装的冰美式咖啡，透明塑料杯，平盖，杯内清晰可见冰块和深色咖啡，紧贴背后的白色背景，光线从杯子正左侧照射，穿过咖啡和冰块，形成通透的内部发光感，投射在紧贴着咖啡杯白色背景上，高真实度，高级商业光影",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Product Image Enhancement",
+      "prompt_en": "A transparent takeout cup of iced Americano coffee — transparent plastic cup, flat lid, clearly visible ice cubes and dark coffee inside; white background directly behind; light shining from the left side of the cup, passing through the coffee and ice to create a translucent internal glow casting on the white background; high realism, premium commercial lighting"
     },
     {
       "id": "O-001",
@@ -808,7 +1008,9 @@
       "scene_id": "online_marketing_design",
       "type": "ambiguous",
       "prompt": "做一个横幅，用于放在春节保洁活动页中的。文案是：保洁预售立减30元  平台帮你优先约阿姨。横版的横幅，大概比例 9:2",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Make a banner for a Spring Festival cleaning campaign page; copy: 'Pre-sale cleaning, save ¥30 — platform helps you book a housecleaner first'; horizontal banner, approximately 9:2 ratio"
     },
     {
       "id": "O-002",
@@ -816,7 +1018,9 @@
       "scene_id": "online_marketing_design",
       "type": "ambiguous",
       "prompt": "跨年夜 1对1急送 总订单突破历史峰值！",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "New Year's Eve 1-on-1 express delivery — total orders broke the historical peak!"
     },
     {
       "id": "O-003",
@@ -824,7 +1028,9 @@
       "scene_id": "online_marketing_design",
       "type": "ambiguous",
       "prompt": "帮我生成一个突破订单峰值海报，带日期 12.31 号",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Help me generate an order peak-breaking poster with the date Dec 31"
     },
     {
       "id": "O-004",
@@ -832,7 +1038,9 @@
       "scene_id": "online_marketing_design",
       "type": "ambiguous",
       "prompt": "春节促销活动的 banner，要有年味",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Spring Festival promotion banner — should have a festive New Year feel"
     },
     {
       "id": "O-005",
@@ -840,7 +1048,9 @@
       "scene_id": "online_marketing_design",
       "type": "ambiguous",
       "prompt": "马年开屏图，品牌风格",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Year of the Horse launch screen image, brand style"
     },
     {
       "id": "O-006",
@@ -848,7 +1058,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "生成一个战报，主色调为红色，氛围大气一点，标题为战报二字，下面写恭喜某团队获得冠军，加一些战旗之类的烘托氛围",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Generate a battle report; main color red, grand atmosphere; title says '战报 (Battle Report)'; below write congratulations to a team for winning the championship; add war flags and similar elements to build atmosphere"
     },
     {
       "id": "O-007",
@@ -856,7 +1068,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "一只手托着对话框，对话框里有爱心、星星等温暖元素，主色调为橘色，添加适配的字体主标题\"致你的成长之旅，我们想听你细说\"和副标题\"——成长体验度调研邀约\"，尺寸比例: 750*300px",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "A hand holding a speech bubble containing hearts, stars, and other warm elements; main color orange; add an appropriate font for the main title 'To your journey of growth, we want to hear your story' and subtitle '— Survey invitation for growth experience'; size: 750×300px"
     },
     {
       "id": "O-008",
@@ -864,7 +1078,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "要设计一个运动打卡推文的首图，格式是 1065x456，整体黄色调，可配一些绿色，标题：2026年第一季度运动打卡",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Design a cover image for a sports check-in article; format 1065×456; overall yellow tone with some green; title: '2026 Q1 Sports Check-in'"
     },
     {
       "id": "O-009",
@@ -872,7 +1088,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "设计一个微信红包封面，主题为 2026 马年新春。要求：1. 主色调为中国红配金色点缀 2. 中央是一匹奔腾的骏马剪纸造型 3. 顶部文字\"马到成功\"使用书法字体 4. 四角装饰传统云纹和梅花元素 5. 尺寸：750x1334px 6. 风格：国潮插画风",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Design a WeChat red envelope cover with a 2026 Year of the Horse Spring Festival theme. Requirements: 1. Main color is Chinese red with gold accents 2. Center is a galloping horse paper-cut design 3. Top text '马到成功 (Instant Success)' in calligraphy font 4. Four corners decorated with traditional cloud and plum blossom elements 5. Size: 750×1334px 6. Style: Guochao (national trend) illustration style"
     },
     {
       "id": "O-010",
@@ -880,7 +1098,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "制作外卖骑手招募海报：主标题: \"骑手招募令\" 位于画面上方1/3处，字体粗黑有力 副标题: \"月入过万不是梦\" 主标题下方，橙色 图片描述: 画面中央是一位阳光自信的外卖骑手，骑着电动车，背后是城市天际线剪影 背景: 渐变色从橙黄到暖白 底部信息栏: 黑底白字显示\"扫码报名 \\",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Create a delivery rider recruitment poster — Main title: 'Rider Recruitment' in the upper third, bold and powerful font; Subtitle: 'Earning over ¥10,000 a month is no dream', orange color; Image: a confident sunny delivery rider on a scooter with city skyline silhouette behind; Background: gradient from orange-yellow to warm white; Bottom info bar: black background white text 'Scan to Register'"
     },
     {
       "id": "O-011",
@@ -888,7 +1108,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "酒店会员日活动主视觉设计：主标题: \"会员专享日\" 画面中央偏上，艺术字体，金色渐变 副标题: \"精选酒店低至5折\" 白色无衬线字体 视觉元素: 3D 风格的金色皇冠悬浮在标题上方；萌星吉祥物穿着酒店服务生制服，右手做邀请姿势；背景是模糊处理的高端酒店大堂 配色方案: 主色深蓝，强调色金色 尺寸: 横版 750*420px 风格: 3D 渲染+扁平图形混搭",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Hotel member day event main visual — Main title: 'Member Exclusive Day' center-upper, artistic font, gold gradient; Subtitle: 'Select hotels from 50% off', white sans-serif font; Visual elements: 3D gold crown floating above title; Mengxing mascot in hotel bellhop uniform, right hand in invitation gesture; Background: blurred premium hotel lobby; Color scheme: dark blue primary, gold accent; Size: horizontal 750×420px; Style: 3D render + flat graphic mixed"
     },
     {
       "id": "O-012",
@@ -896,7 +1118,9 @@
       "scene_id": "online_marketing_design",
       "type": "edit",
       "prompt": "参考图片，做一张有元旦氛围的贺卡",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Based on the reference image, create a greeting card with a New Year's Day atmosphere"
     },
     {
       "id": "O-013",
@@ -904,7 +1128,9 @@
       "scene_id": "online_marketing_design",
       "type": "edit",
       "prompt": "请参照这个样式生成一个喜报，喜报内容为：热烈庆祝某业务线达成年度日均单量目标，同时用大字体突出日均单量突破2500单",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Based on this style, generate a congratulatory announcement; content: warmly congratulate a business unit for achieving its annual daily order target; highlight in large font that the daily orders exceeded 2,500"
     },
     {
       "id": "O-014",
@@ -912,7 +1138,9 @@
       "scene_id": "online_marketing_design",
       "type": "edit",
       "prompt": "请将风格变得更加专业、靠谱",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Make the style more professional and reliable"
     },
     {
       "id": "O-015",
@@ -920,7 +1148,9 @@
       "scene_id": "online_marketing_design",
       "type": "explicit",
       "prompt": "做一张入职三周年纪念海报，主标题\"入职三周年快乐！\"字体卡通可爱，副标题\"坚持所爱，遇见更多精彩\"，画面中央设计一个可爱的原创卡通人物形象（黏土风格，色彩鲜艳），四周加入和周年相关的元素，图片风格 3D 艺术，尺寸比例 960*640px",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Create a 3rd work anniversary commemorative poster — main title '入职三周年快乐！(Happy 3rd Work Anniversary!)' in cute cartoon font; subtitle 'Pursue what you love, discover more wonderful moments'; center features an original cute cartoon character (clay style, vivid colors) surrounded by anniversary-related elements; image style 3D art, size 960×640px"
     },
     {
       "id": "O-016",
@@ -928,7 +1158,9 @@
       "scene_id": "online_marketing_design",
       "type": "edit",
       "prompt": "将这张活动 banner 的色调调整为春节红金配色，保留原有文案和构图，替换背景为喜庆烟花场景，尺寸保持不变",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Adjust the color scheme of this event banner to Chinese New Year red-and-gold; keep the original copy and composition; replace the background with a festive fireworks scene; size unchanged"
     },
     {
       "id": "O-017",
@@ -936,7 +1168,9 @@
       "scene_id": "online_marketing_design",
       "type": "compound",
       "prompt": "参考图片风格和构图，输出某城市私享会活动海报，本次活动合作数家知名酒店，海报风格要求简约大气有质感，其中融入城市地标元素",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Based on the image's style and composition, create a private gathering event poster for a certain city; this event collaborates with several well-known hotels; poster style should be simple, atmospheric, and textured, incorporating local city landmark elements"
     },
     {
       "id": "O-018",
@@ -944,7 +1178,9 @@
       "scene_id": "online_marketing_design",
       "type": "compound",
       "prompt": "我们是服务部门，要做一个大模型方向探索的启动沟通会，需要设计一个有科技感、代表未来方向的启动会背板，业务包含金融、软硬件、超市、B端食杂业务等，你有什么推荐方案吗",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "We are a service department hosting a kickoff communication meeting for large model (LLM) exploration; need to design a backdrop with a technological feel representing the future direction; business lines include finance, hardware/software, supermarket, and B-side food & grocery; what proposals do you recommend?"
     },
     {
       "id": "O-019",
@@ -952,7 +1188,9 @@
       "scene_id": "online_marketing_design",
       "type": "compound",
       "prompt": "帮我为某电商平台\"5.17吃货节\"活动设计一套完整的视觉物料，包含：① APP 首屏开屏图（1080*1920px）② 活动列表页 Banner（750*200px）③ 朋友圈广告图（1080*1080px），三张图需要风格统一，主色调品牌黄，突出\"吃货节\"氛围和折扣信息\"最高满50减25\"",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Help design a complete set of visual materials for an e-commerce platform's '5.17 Foodie Festival' event: ① APP first-screen splash image (1080×1920px); ② Event list page banner (750×200px); ③ WeChat Moments ad image (1080×1080px); three images must be visually consistent, main brand yellow color, emphasizing the 'Foodie Festival' atmosphere and discount info 'up to ¥25 off orders over ¥50'"
     },
     {
       "id": "O-020",
@@ -960,7 +1198,9 @@
       "scene_id": "online_marketing_design",
       "type": "compound",
       "prompt": "为某外卖平台\"夜间专场\"活动设计主视觉，要求输出两个版本：深色版（适合夜间场景，深蓝/黑色调）和浅色版（日间场景，橙黄色调），画面需包含萌星吉祥物、夜间配送场景元素，尺寸 750*1000px，并说明两版各自适用的投放场景",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Online Marketing Design",
+      "prompt_en": "Design the main visual for a food delivery platform's 'Night Special' event, requiring two versions: dark version (for nighttime scenes, dark blue/black tones) and light version (daytime scenes, orange-yellow tones); images should include the Mengxing mascot and nighttime delivery scene elements; size 750×1000px; explain the applicable placement scenarios for each version"
     },
     {
       "id": "F-001",
@@ -968,7 +1208,9 @@
       "scene_id": "offline_promotion_design",
       "type": "ambiguous",
       "prompt": "站点要招骑手，做个展架放门口",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "The station needs to recruit riders — make a display stand to put at the entrance"
     },
     {
       "id": "F-002",
@@ -976,7 +1218,9 @@
       "scene_id": "offline_promotion_design",
       "type": "ambiguous",
       "prompt": "店庆三周年需要一个易拉宝放在门口",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "The store's 3rd anniversary needs a retractable banner stand at the entrance"
     },
     {
       "id": "F-003",
@@ -984,7 +1228,9 @@
       "scene_id": "offline_promotion_design",
       "type": "ambiguous",
       "prompt": "收银台那个扫码付款的小牌子能做吗",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Can you make the QR code payment sign for the checkout counter?"
     },
     {
       "id": "F-004",
@@ -992,7 +1238,9 @@
       "scene_id": "offline_promotion_design",
       "type": "ambiguous",
       "prompt": "下周开业要拉横幅写什么热烈庆祝之类的",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Opening next week — need to make a banner saying 'Congratulations on the Grand Opening' or similar"
     },
     {
       "id": "F-005",
@@ -1000,7 +1248,9 @@
       "scene_id": "offline_promotion_design",
       "type": "ambiguous",
       "prompt": "商场下个月搞美食节需要做一批道旗",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "The shopping mall is having a food festival next month — need to make a batch of street pole flags"
     },
     {
       "id": "F-006",
@@ -1008,7 +1258,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "帮我设计一份智能点餐台卡，尺寸 20.5x14.5cm，参考上传的菜品图片，设计成适合该菜品的点餐台卡样式",
-      "has_reference_image": true
+      "has_reference_image": true,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Help me design a smart ordering table card, size 20.5×14.5cm; based on the uploaded dish images, design a table card suitable for this dish"
     },
     {
       "id": "F-007",
@@ -1016,7 +1268,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "帮我根据以下活动方案做一个合适的线下活动宣传海报，尺寸为 60\\*90cm，整体风格采用三维 C4D 风格·温暖写实。顶部标题\"大鹿租电动车 单日低至10元起\"，副标题\"上下班骑大鹿 长租套餐更优惠\"；重点表达租赁套餐（卡片形式，垂直顺序排序）：1. 灵活短租：5元/3时；2. 1日租：19元；3. 3日租：49元；4. 周租：109元；5. 月租：299元。给我出三个方案",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Based on the following event plan, create a suitable offline event promotional poster, size 60×90cm, overall style 3D C4D warm-realistic. Top title 'Dalu E-bike Rental starting from ¥10/day', subtitle 'Commute with Dalu, longer rental packages are better value'; key rental packages (card format, vertical order): 1. Flexible short rental: ¥5/3hrs; 2. 1-day rental: ¥19; 3. 3-day rental: ¥49; 4. Weekly rental: ¥109; 5. Monthly rental: ¥299. Produce three proposals"
     },
     {
       "id": "F-008",
@@ -1024,7 +1278,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "设计一款展架，尺寸 60\\*160cm，主题为星空之旅，背景要有很多娃娃机，预留扫码二维码位置",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design a display stand, size 60×160cm, theme is Space Journey; background should feature many claw machines; reserve space for a QR code"
     },
     {
       "id": "F-009",
@@ -1032,7 +1288,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "设计春节促销吊旗：尺寸 30\\*60cm 竖版吊旗；主题 2026 马年春节；顶部：祥云纹装饰条；主标题\"新春特惠\"毛笔书法字体，金色；副标题\"满100减20\"红底白字爆炸贴样式；中部：马年生肖剪纸图案装饰；配色：中国红为主，金色点缀；风格：喜庆传统，节日氛围浓厚；打印要求：双面印刷，防水材质",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design Spring Festival promotional hanging flags — size 30×60cm vertical hanging flag; theme: 2026 Year of the Horse Spring Festival; top: auspicious cloud pattern decorative strip; main title 'Spring Festival Special' in brush calligraphy, gold color; subtitle '¥20 off orders over ¥100' in red-background white-text explosion badge style; center: Year of the Horse zodiac paper-cut pattern decoration; colors: Chinese red as main color with gold accents; style: festive traditional, strong holiday atmosphere; printing: double-sided, waterproof material"
     },
     {
       "id": "F-010",
@@ -1040,7 +1298,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "制作新店开业横幅：尺寸 600\\*80cm；主文案\"热烈庆祝 XX店盛大开业\"居中；副文案\"开业期间全场8折进店有礼\"；底色：大红色；字体：主文案黄色粗体，副文案白色；装饰：两端加彩带飘扬元素；材质：户外防水布料",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Create a new store opening banner — size 600×80cm; main copy 'Warmly Celebrate the Grand Opening of XX Store' centered; subtitle 'During opening period, 20% off everything, gifts for entering'; background: bright red; font: main copy in yellow bold, subtitle in white; decoration: streaming ribbon elements at both ends; material: outdoor waterproof fabric"
     },
     {
       "id": "F-011",
@@ -1048,7 +1308,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "设计年度表彰大会背景板：尺寸 800\\*300cm（舞台背景）；主标题\"2025年度表彰大会\"画面中央，金色立体字；副标题\"砥砺前行共创辉煌\"主标题下方，白色字体；背景：深蓝色渐变；装饰元素：两侧对称的光芒放射线条、底部金色波浪纹、四角星光点缀；底部：预留日期和地点信息位置；风格：大气庄重，企业年会风格",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design an annual recognition ceremony backdrop — size 800×300cm (stage backdrop); main title '2025 Annual Recognition Ceremony' centered in gold 3D lettering; subtitle 'Forge ahead together, create brilliance' below in white; background: dark blue gradient; decorative elements: symmetrical radiant lines on both sides, gold wave pattern at bottom, star light accents at four corners; bottom: reserved space for date and location; style: grand and solemn, corporate year-end gala"
     },
     {
       "id": "F-012",
@@ -1056,7 +1318,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "帮我设计一款五一劳动节展架（60×160cm），促销信息：消费满99减20，活动时间5月1日-5月3日，设计风格活泼温馨",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Help me design a Labor Day (May 1st) display stand (60×160cm); promotional info: spend ¥99 save ¥20, event period May 1–3; design style lively and warm"
     },
     {
       "id": "F-013",
@@ -1064,7 +1328,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "制作 2026 马年春节横幅，尺寸 300×80cm，主文案\"热烈祝贺 新年快乐\"，配色大红色背景、金色文字，喜庆传统风格",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Create a 2026 Year of the Horse Spring Festival banner — size 300×80cm; main copy 'Warm Congratulations, Happy New Year'; color scheme: bright red background, gold text; festive traditional style"
     },
     {
       "id": "F-014",
@@ -1072,7 +1338,9 @@
       "scene_id": "offline_promotion_design",
       "type": "explicit",
       "prompt": "设计一个自提点易拉宝（60×160cm），主题：明日达超省钱，黄色主色调，预留二维码位置，底部地址：北京市朝阳区望京街道10号楼B座1层",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design a self-pickup point retractable banner stand (60×160cm); theme: Tomorrow's Delivery, Super Savings; yellow as main color; reserve space for QR code; bottom address: 1F, Building B, No.10 Wangjing Street, Chaoyang District, Beijing"
     },
     {
       "id": "F-015",
@@ -1080,7 +1348,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "帮我为某自提点设计一套系列物料，包含：① 门口易拉宝（60×160cm）：主打\"明日达·超省钱\"；② 门口横幅（300×80cm）：热烈欢迎顾客；③ 收银台小牌子（A5横版）：扫码领优惠券。三件套视觉风格统一，主品牌色为黄色，简洁大气",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Help me design a set of series materials for a self-pickup point: ① entrance retractable banner stand (60×160cm): featuring 'Tomorrow Delivery · Super Savings'; ② entrance banner (300×80cm): warmly welcoming customers; ③ checkout counter small sign (A5 horizontal): scan to get coupon. Three-piece set with unified visual style, main brand color yellow, clean and grand"
     },
     {
       "id": "F-016",
@@ -1088,7 +1358,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "为一场科技公司年会设计配套物料：① 签到背景板（400×200cm）：主题\"星辰大海·2026年度盛典\"，科技感蓝色调；② 桌签名牌（20×8cm，三角立式）：统一风格；③ 水牌（A4竖版）：指引参会者到各会议室。三件套风格统一",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design supporting materials for a tech company annual gala: ① check-in backdrop (400×200cm): theme 'Stars and Seas · 2026 Annual Gala', tech-feel blue tones; ② desk name card (20×8cm, triangular standing): matching style; ③ wayfinding sign (A4 vertical): guiding attendees to various meeting rooms. Three-piece set with unified style"
     },
     {
       "id": "F-017",
@@ -1096,7 +1368,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "为某外卖平台秋季促销活动设计一套线下推广物料，包含：① 3×6米户外横幅：活动主题\"秋季狂欢节，外卖立减50\"；② 80×180cm 门型展架：展示品牌吉祥物形象+活动信息；③ A4单页传单：双面设计，正面活动海报，背面参与规则。三个物料风格统一",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design a set of offline promotional materials for a food delivery platform's autumn promotion event: ① 3×6 meter outdoor banner: event theme 'Autumn Carnival — Save ¥50 on Delivery'; ② 80×180cm door-type display stand: featuring brand mascot + event info; ③ A4 single-page flyer: double-sided, event poster on front, participation rules on back. Three materials with unified style"
     },
     {
       "id": "F-018",
@@ -1104,7 +1378,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "新店开业，需要一套物料：① 店门口开业横幅（500×100cm）：热烈庆祝XX店开业，开业三天全场9折；② 店内促销展架（60×160cm）：展示爆款商品和价格；③ 收银台台卡（A5横版）：引导顾客关注公众号。要求：三件物料品牌风格统一，主色调黄色+白色，融入开业庆典氛围",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "New store opening needs a set of materials: ① store entrance opening banner (500×100cm): warmly celebrate XX store opening, 10% off everything for the first three days; ② in-store promotional display stand (60×160cm): featuring popular products and prices; ③ checkout counter card (A5 horizontal): guiding customers to follow the official account. Three materials with unified brand style, main colors yellow + white, incorporating grand opening festive atmosphere"
     },
     {
       "id": "F-019",
@@ -1112,7 +1388,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "设计一套骑手站点招募宣传物料，包含：① 站点门口大展架（80×180cm）：骑手招募主题，展示薪资待遇和工作优势；② A4传单：供路人带走，包含详细岗位信息和扫码报名二维码；③ 站点内部公告栏海报（60×90cm）：展示骑手晋升通道和激励政策。三件物料视觉统一，整体传递积极正向的工作氛围",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design a set of rider station recruitment promotional materials: ① large display stand at station entrance (80×180cm): rider recruitment theme showing salary benefits and job advantages; ② A4 flyer: for passersby to take away, including detailed job info and QR code registration; ③ in-station bulletin board poster (60×90cm): showing rider advancement paths and incentive policies. Three materials with unified visuals conveying a positive and uplifting work environment"
     },
     {
       "id": "F-020",
@@ -1120,7 +1398,9 @@
       "scene_id": "offline_promotion_design",
       "type": "compound",
       "prompt": "为某餐饮品牌设计一套线下门店物料，包含：① 门口人型立牌（高度 180cm）：品牌吉祥物形象，右手竖大拇指，左手拿着外卖餐盒，表情开心微笑；② 外卖取餐区地贴（直径 60cm 圆形）：含品牌 logo 和\"外卖取餐等候区\"\"请保持1米距离\"提示，设计 3 款不同样式；③ 扫码点餐台卡（15×10cm 三角立式）：含二维码和招牌菜推荐。三件物料风格统一",
-      "has_reference_image": false
+      "has_reference_image": false,
+      "scene_en": "Offline Promotion Design",
+      "prompt_en": "Design a set of offline store materials for a food & beverage brand: ① life-size cutout sign at entrance (height 180cm): brand mascot character, right hand giving thumbs up, left hand holding a delivery meal box, happy smiling expression; ② self-pickup area floor sticker (60cm diameter circle): including brand logo and 'Self-Pickup Waiting Area' + 'Please Maintain 1 Meter Distance' prompts, design 3 different styles; ③ QR code ordering table card (15×10cm triangular standing): including QR code and recommended signature dishes. Three materials with unified style"
     }
   ]
 }

@@ -11,12 +11,18 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/ai-design-benchmark/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
+[![Tests](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml/badge.svg)](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml)
+
+### News
+
+- **2026-04**: v1.1 released — added reference images (53 files), bilingual tasks, CI pipeline, and 9 scoring tests; paper PDF published as [Release asset](https://github.com/SanJueLogic/ai-design-benchmark/releases/tag/v1.1)
+- **2026-04**: Round 1 results published — Lovart 56% (95% CI: 47%–64%), Jimeng 27%, Roboneo 19% across 7 scenes
 
 ### Overview
 
 This project provides a reproducible framework for cross-product evaluation of AI design tools, including:
 
-- **7 design scenarios, 115 evaluation tasks** (Logo Design / IP Character Design / Badge & Trophy / Product Poster / Product Image Enhancement / Online Marketing / Offline Promotion)
+- **7 design scenarios, 140 tasks in dataset** — 115 tasks evaluated in Round 1 (Logo Design / IP Character Design / Badge & Trophy / Product Poster / Product Image Enhancement / Online Marketing / Offline Promotion)
 - **Double-blind SbS (Side-by-Side) voting**: evaluators pick the best output without knowing which product generated it
 - **4-layer aggregation algorithm**: Vote → Question → Task → Scene, ensuring full reproducibility
 - **Two-step confidence quantification**: Ticket concentration (≥20% / 10–20% / <10%) + Bootstrap 95% CI
@@ -52,7 +58,7 @@ ai-design-benchmark/
 ├── methodology/                  # Methodology docs (metrics / scoring / evaluator protocol)
 ├── dataset/
 │   └── v1.0/
-│       ├── tasks.json            # Structured task dataset (115 tasks)
+│       ├── tasks.json            # Structured task dataset (140 tasks; 115 evaluated in Round 1)
 │       ├── scenes/               # Per-scene task books (Markdown)
 │       └── reference-images/     # Reference images for edit-type tasks
 ├── results/
@@ -131,7 +137,7 @@ For questions, collaboration, or citation inquiries:
 
 本项目提供一套可复现的 AI 设计工具横向评测方法论，包含：
 
-- **7 大设计场景、115 条评测任务**（Logo 设计 / IP 形象设计 / 徽章奖杯设计 / 商品海报设计 / 商品图片美化 / 线上营销活动 / 线下推广物料）
+- **7 大设计场景、140 条任务（数据集总量）**，Round 1 实评 115 条（Logo 设计 / IP 形象设计 / 徽章奖杯设计 / 商品海报设计 / 商品图片美化 / 线上营销活动 / 线下推广物料）
 - **双盲 SbS（Side-by-Side）投票机制**：评测员在不知道图片来源的情况下逐题选出最优结果
 - **四层聚合算法**：投票 → 题目 → 任务 → 场景，保证结论可复现
 - **两步置信度量化**：票数集中度（≥20% / 10–20% / <10%）+ Bootstrap 95% CI

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ai-design-benchmark"
+version = "1.1.0"
+description = "A reproducible benchmark framework for evaluating AI design tools"
+readme = "README.md"
+license = {file = "LICENSE-CODE"}
+requires-python = ">=3.9"
+authors = [
+  {name = "Liu Sanjue", email = "842559943@qq.com"}
+]
+keywords = ["benchmark", "AI", "design", "evaluation", "LLM"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+ai-bench-score = "scoring:main"
+ai-bench-confidence = "confidence:main"
+
+[tool.setuptools.packages.find]
+where = ["tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
