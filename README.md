@@ -12,6 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/ai-design-benchmark/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
 [![Tests](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml/badge.svg)](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗%20Dataset-Sanjue--Logic%2Fai--design--benchmark-yellow)](https://huggingface.co/datasets/Sanjue-Logic/ai-design-benchmark)
 
 ### News
 
