@@ -1,99 +1,127 @@
-# 评测指标定义
+# Evaluation Metrics | 评测指标定义
 
-> 本文档对应论文 §5 与附录 B，详细说明各指标的计算方式与适用场景。
+[English](#english) | [中文](#中文)
 
-## 核心指标
+---
 
-### 1. 任务理解与执行（客观）
+## English
+
+> This document corresponds to §5 and Appendix B of the paper.
+
+### Core Metrics
+
+#### 1. Task Understanding & Execution (Objective)
+
+**Definition**: Whether the product correctly generated content matching the task prompt (element completeness, size/spec compliance, style direction).
+
+**Evaluation question**: Q1 — "Looking at the task prompt, which image has the highest completion rate?"
+
+**Calculation**: The product receiving the most votes on this question is considered the winner. Ties are allowed (both products count as winners when vote counts are equal).
+
+#### 2. Basic Professional Quality (Objective)
+
+**Definition**: Whether there are hard quality defects (text distortion / typos / blurry images / broken elements).
+
+**Evaluation question**: Q2 — "Which image has the most accurate graphics/text, with no distortion or typo issues?"
+
+#### 3. Visual Experience (Subjective)
+
+**Definition**: Overall visual quality — style fit, color harmony, compositional balance, creative novelty.
+
+**Evaluation question**: Q3 — "Which image is most memorable, with the strongest creativity and design sense?"
+
+#### 4. Information Communication (Subjective)
+
+**Definition**: Whether core information is communicated clearly and efficiently, with clear information hierarchy.
+
+**Evaluation question**: Q4 — "Which image is most suitable for actual commercial use?"
+
+#### 5. Overall Applicability (Mixed)
+
+**Definition**: Holistic judgment — if you were the client, which image would you approve directly without requesting revisions?
+
+**Evaluation question**: Q5 — "If you were the client, which image would you approve directly without asking for changes?"
+
+### Aggregated Metrics
+
+| Metric | Definition |
+|--------|-----------|
+| **Task Win Rate** | Products winning the most questions in a task win that task. `Task win rate = tasks won / total tasks in scene` |
+| **Scene Win Rate** | Products winning the most tasks in a scene rank first |
+| **Overall Win Rate** | Total tasks won across all scenes / total tasks |
+
+### Confidence Metrics
+
+**Ticket Concentration** — gap between 1st and 2nd place scene win rates:
+
+| Gap | Confidence | Meaning |
+|:---:|:----------:|---------|
+| ≥ 20% | ✅ High | Directly citable |
+| 10%–20% | ⚠️ Medium | Cite with caution |
+| < 10% | ❌ Low | Limited statistical significance |
+
+**Bootstrap CI** — 10,000 task-resample iterations (seed=42), 95% confidence interval. See `../tools/confidence.py`.
+
+**Random baseline**: 33% (3-way selection). Products with overall win rates significantly above 33% have a statistically meaningful advantage.
+
+---
+
+## 中文
+
+> 本文档对应论文 §5 与附录 B。
+
+### 核心指标
+
+#### 1. 任务理解与执行（客观）
 
 **定义**：被评测产品是否按任务 Prompt 的要求正确生成了对应内容（元素完整性、尺寸/规格、风格方向）。
 
-**评测题目**：Q1 - "对照任务 Prompt，哪张图的完成度最高？"
+**评测题目**：Q1 — "对照任务 Prompt，哪张图的完成度最高？"
 
-**计算方式**：该题获得评测员最多投票的产品视为"胜出"；允许并列（票数相同时两者均计为胜出）。
+**计算方式**：该题获得评测员最多投票的产品视为"胜出"；允许并列。
 
----
-
-### 2. 基础专业质量（客观）
+#### 2. 基础专业质量（客观）
 
 **定义**：是否存在图像硬伤（文字畸变 / 错别字 / 图像模糊 / 元素崩坏）。
 
-**评测题目**：Q2 - "哪张图图形/文字最准确，没有崩坏/错别字问题？"
+**评测题目**：Q2 — "哪张图图形/文字最准确，没有崩坏/错别字问题？"
 
-**计算方式**：同上。
-
----
-
-### 3. 视觉体验效果（主观）
+#### 3. 视觉体验效果（主观）
 
 **定义**：视觉呈现的整体质感——风格契合度、配色和谐性、构图平衡感、创意新颖度。
 
-**评测题目**：Q3 - "哪张图最有记忆点，创意和设计感最强？"
+**评测题目**：Q3 — "哪张图最有记忆点，创意和设计感最强？"
 
-**计算方式**：同上（主观指标，评测员意见分散属正常现象）。
-
----
-
-### 4. 信息传达效果（主观）
+#### 4. 信息传达效果（主观）
 
 **定义**：核心信息是否清晰高效传递，信息层级是否分明。
 
-**评测题目**：Q4 - "哪张图最适合实际商用？"
+**评测题目**：Q4 — "哪张图最适合实际商用？"
 
-**计算方式**：同上。
+#### 5. 综合应用性（混合）
 
----
+**定义**：综合考量后，如果你是甲方，你会直接通过哪张（不要求返工）。
 
-### 5. 综合应用性（混合）
+**评测题目**：Q5 — "如果你是甲方，你会直接通过哪张，不要求返工？"
 
-**定义**：综合考量后，如果你是甲方，收到这几张图，你会直接通过哪张（不要求返工）。
+### 聚合指标
 
-**评测题目**：Q5 - "如果你是甲方，你会直接通过哪张，不要求返工？"
+| 指标 | 定义 |
+|------|------|
+| **任务胜率** | 5 题中赢得题目数最多的产品赢得该任务。`任务胜率 = 赢得任务数 / 该场景总任务数` |
+| **场景胜率** | 赢得任务数最多者排名第一 |
+| **总胜率** | 所有场景赢得任务数 ÷ 总任务数 |
 
-**计算方式**：同上。此指标与总胜率高度相关，是最终排名的核心依据。
+### 置信度指标
 
----
-
-## 聚合指标
-
-### 题目层胜率
-
-某产品在某题目中获得的投票数 / 总参与投票人数。
-
-### 任务胜率（Task Win Rate）
-
-某产品在某任务的 5 道题中，赢得题目数最多（计为赢得该任务）。允许并列。
-
-### 场景胜率（Scene Win Rate）
-
-某产品在某场景的全部任务中，赢得任务数最多者排名第一。
-
-**计算公式**：`场景胜率 = 赢得任务数 / 该场景总任务数`
-
-### 总胜率（Overall Win Rate）
-
-某产品在所有场景所有任务中赢得的任务总数 / 总任务数。
-
----
-
-## 置信度指标
-
-### 票数集中度
-
-第一名产品与第二名产品的场景胜率差值。
+**票数集中度** — 第一名与第二名场景胜率差值：
 
 | 差距 | 置信度 | 含义 |
 |:---:|:-----:|------|
 | ≥ 20% | ✅ 高 | 可直接引用 |
-| 10%–20% | ⚠️ 中 | 谨慎引用，建议注明 |
-| < 10% | ❌ 低 | 统计意义有限，不建议引用具体排名 |
+| 10%–20% | ⚠️ 中 | 谨慎引用 |
+| < 10% | ❌ 低 | 统计意义有限 |
 
-### Bootstrap 置信区间
+**Bootstrap 置信区间**：10,000 次 task-resample（seed=42），95% CI。见 `../tools/confidence.py`。
 
-基于 10,000 次 task-resample Bootstrap（seed=42），计算 95% 置信区间。详见 `../tools/confidence.py`。
-
----
-
-## 随机基准
-
-3 款产品横评的随机基准为 **33%**（3 选 1）。总胜率显著高于 33% 的产品可认为具备统计上的优势。
+**随机基准**：33%（3 选 1）。总胜率显著高于 33% 的产品具备统计优势。

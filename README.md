@@ -1,37 +1,39 @@
 # AI Design Benchmark
 
-**一套面向 AI 设计工具的系统性评测框架** | A reproducible benchmark framework for evaluating AI design tools
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+**A reproducible benchmark framework for evaluating AI design tools across 7 design scenarios**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/ai-design-benchmark/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
 
----
+### Overview
 
-## 简介
+This project provides a reproducible framework for cross-product evaluation of AI design tools, including:
 
-本项目提供一套可复现的 AI 设计工具横向评测方法论，包含：
+- **7 design scenarios, 115 evaluation tasks** (Logo Design / IP Character Design / Badge & Trophy / Product Poster / Product Image Enhancement / Online Marketing / Offline Promotion)
+- **Double-blind SbS (Side-by-Side) voting**: evaluators pick the best output without knowing which product generated it
+- **4-layer aggregation algorithm**: Vote → Question → Task → Scene, ensuring full reproducibility
+- **Two-step confidence quantification**: Ticket concentration (≥20% / 10–20% / <10%) + Bootstrap 95% CI
+- **Round 1 empirical results**: cross-product comparison data for 3 publicly available AI design tools (Lovart / Jimeng / Roboneo)
 
-- **7 大设计场景、115 条评测任务**（Logo / IP 形象 / 徽章奖杯 / 商品海报 / 商品图片美化 / 线上营销活动 / 线下推广物料）
-- **双盲 SbS（Side-by-Side）投票机制**：评测员在不知道图片来源的情况下逐题选出最优结果
-- **四层聚合算法**：投票 → 题目 → 任务 → 场景，保证结论可复现
-- **两步置信度量化**：票数集中度（≥20%/10-20%/<10%）+ Bootstrap 95% CI
-- **Round 1 实证结果**：3 款公开 AI 设计工具（Lovart / 即梦 / Roboneo）横向对比数据
+> Full paper → [`paper/`](paper/) | Methodology → [`methodology/`](methodology/) | Task dataset → [`dataset/`](dataset/)
 
-> 论文全文见 [`paper/`](paper/) | 方法论文档见 [`methodology/`](methodology/) | 任务集见 [`dataset/`](dataset/)
+### Quick Start
 
----
-
-## 快速开始
-
-### 环境要求
+**Requirements**
 
 ```bash
 Python >= 3.9
 pip install -r tools/requirements.txt
 ```
 
-### 复现 Round 1 结果
+**Reproduce Round 1 results**
 
 ```bash
 git clone https://github.com/SanJueLogic/ai-design-benchmark
@@ -40,43 +42,126 @@ python tools/scoring.py --input results/round-1/raw-votes.csv --output results/r
 python tools/confidence.py --input results/round-1/raw-votes.csv
 ```
 
-### 运行你自己的一轮评测
+**Run your own evaluation round** → [`docs/how-to-run-a-round.md`](docs/how-to-run-a-round.md)
 
-详见 [`docs/how-to-run-a-round.md`](docs/how-to-run-a-round.md)
-
----
-
-## 目录结构
+### Repository Structure
 
 ```
 ai-design-benchmark/
-├── paper/                        # 论文正文（中文 Markdown + PDF）
-├── methodology/                  # 方法论文档（指标定义 / 打分规范 / 评测员协议）
+├── paper/                        # Full paper (Chinese Markdown + PDF)
+├── methodology/                  # Methodology docs (metrics / scoring / evaluator protocol)
 ├── dataset/
 │   └── v1.0/
-│       ├── tasks.json            # 结构化任务集（115 条）
-│       ├── scenes/               # 按场景组织的任务书（Markdown）
-│       └── reference-images/     # 编辑型任务参考图
+│       ├── tasks.json            # Structured task dataset (115 tasks)
+│       ├── scenes/               # Per-scene task books (Markdown)
+│       └── reference-images/     # Reference images for edit-type tasks
 ├── results/
 │   └── round-1/
-│       ├── raw-votes.csv         # 原始投票数据（评测员已匿名）
-│       ├── aggregated.csv        # 聚合胜率结果
-│       └── analysis-reports/     # 场景级分析报告
+│       ├── raw-votes.csv         # Raw votes (evaluators anonymized)
+│       ├── aggregated.csv        # Aggregated win-rate results
+│       └── analysis-reports/     # Scene-level analysis reports
 ├── tools/
-│   ├── scoring.py                # 四层聚合打分脚本
-│   ├── confidence.py             # 置信度与 Bootstrap CI 计算
-│   └── sbs-template/             # SbS 投票网页模板
+│   ├── scoring.py                # 4-layer aggregation scoring script
+│   ├── confidence.py             # Confidence & Bootstrap CI calculator
+│   └── sbs-template/             # SbS voting web template
 └── docs/
-    ├── how-to-run-a-round.md     # 如何跑一轮评测
-    ├── how-to-add-a-product.md   # 如何新增被评测产品
-    └── how-to-contribute.md      # 如何贡献新任务
+    ├── how-to-run-a-round.md     # How to run an evaluation round
+    ├── how-to-add-a-product.md   # How to add a new product
+    └── how-to-contribute.md      # How to contribute new tasks
 ```
+
+### Round 1 Results Summary
+
+> Data collected: March–April 2026 | Method: double-blind SbS ranking | Evaluators: 10 (5 design / 4 engineering / 1 ML)
+
+| Rank | Product | Win Rate | 95% CI | Scenes Won |
+|:---:|---------|:-------:|:------:|:---------:|
+| 🥇 1 | **Lovart** | 56% | 47%–64% | 6 |
+| 🥈 2 | **Jimeng (即梦)** | 27% | 19%–35% | 1 |
+| 🥉 3 | **Roboneo** | 19% | 12%–27% | 0 |
+
+| Scene | Winner | Win Rate | Confidence |
+|-------|:------:|:--------:|:---------:|
+| Logo Design | Lovart | 71% | ✅ High |
+| IP Character Design | Lovart | 44% | ❌ Low |
+| Badge & Trophy Design | Lovart | 63% | ✅ High |
+| Product Poster Design | Jimeng | 50% | ⚠️ Medium |
+| Product Image Enhancement | Lovart | 46% | ❌ Low |
+| Online Marketing Design | Lovart | 67% | ✅ High |
+| Offline Promotion Design | Lovart | 63% | ✅ High |
+
+> Full results and confidence explanations → [`results/round-1/`](results/round-1/)
+
+### Citation
+
+If this framework is helpful to your research, please cite:
+
+```bibtex
+@techreport{liu2026aidesignbenchmark,
+  title     = {AI Design Tool Evaluation Benchmark v1.0: A Systematic Cross-Product Evaluation Framework for Enterprise Design Scenarios},
+  author    = {Liu, Sanjue},
+  year      = {2026},
+  institution = {Independent Research},
+  url       = {https://github.com/SanJueLogic/ai-design-benchmark}
+}
+```
+
+### Contributing
+
+Contributions of new tasks or scenes via Pull Request are welcome. See [`docs/how-to-contribute.md`](docs/how-to-contribute.md)
+
+### Contact
+
+For questions, collaboration, or citation inquiries:
+
+📧 842559943@qq.com
+
+### License
+
+- **Data & documentation** (paper, task dataset, results): [CC BY 4.0](LICENSE-DATA) — free to use with attribution
+- **Code** (scripts under `tools/`): [MIT](LICENSE-CODE)
 
 ---
 
-## Round 1 结果摘要
+## 中文
 
-> 数据采集时间：2026 年 3-4 月 | 评测方式：双盲 SbS 图片排序 | 评测员：10 人（设计 5 / 研发 4 / 算法 1）
+**一套面向 AI 设计工具的系统性评测框架**
+
+### 简介
+
+本项目提供一套可复现的 AI 设计工具横向评测方法论，包含：
+
+- **7 大设计场景、115 条评测任务**（Logo 设计 / IP 形象设计 / 徽章奖杯设计 / 商品海报设计 / 商品图片美化 / 线上营销活动 / 线下推广物料）
+- **双盲 SbS（Side-by-Side）投票机制**：评测员在不知道图片来源的情况下逐题选出最优结果
+- **四层聚合算法**：投票 → 题目 → 任务 → 场景，保证结论可复现
+- **两步置信度量化**：票数集中度（≥20% / 10–20% / <10%）+ Bootstrap 95% CI
+- **Round 1 实证结果**：3 款公开 AI 设计工具（Lovart / 即梦 / Roboneo）横向对比数据
+
+> 论文全文 → [`paper/`](paper/) | 方法论文档 → [`methodology/`](methodology/) | 任务集 → [`dataset/`](dataset/)
+
+### 快速开始
+
+**环境要求**
+
+```bash
+Python >= 3.9
+pip install -r tools/requirements.txt
+```
+
+**复现 Round 1 结果**
+
+```bash
+git clone https://github.com/SanJueLogic/ai-design-benchmark
+cd ai-design-benchmark
+python tools/scoring.py --input results/round-1/raw-votes.csv --output results/round-1/aggregated-repro.csv
+python tools/confidence.py --input results/round-1/raw-votes.csv
+```
+
+**运行你自己的评测** → [`docs/how-to-run-a-round.md`](docs/how-to-run-a-round.md)
+
+### Round 1 结果摘要
+
+> 数据采集时间：2026 年 3-4 月 | 评测方式：双盲 SbS | 评测员：10 人（设计 5 / 研发 4 / 算法 1）
 
 | 排名 | 产品 | 总胜率 | 95% CI | 第一场景数 |
 |:---:|------|:------:|:------:|:--------:|
@@ -94,13 +179,7 @@ ai-design-benchmark/
 | 线上营销活动 | Lovart | 67% | ✅ 高 |
 | 线下推广物料 | Lovart | 63% | ✅ 高 |
 
-> 完整结果与置信度说明见 [`results/round-1/`](results/round-1/)
-
----
-
-## 引用
-
-如果本框架对你的研究有帮助，请引用：
+### 引用
 
 ```bibtex
 @techreport{liu2026aidesignbenchmark,
@@ -112,23 +191,15 @@ ai-design-benchmark/
 }
 ```
 
----
-
-## 贡献
+### 贡献
 
 欢迎通过 Pull Request 提交新任务或新场景，详见 [`docs/how-to-contribute.md`](docs/how-to-contribute.md)
 
----
-
-## 联系
-
-如有问题、合作意向或引用相关事宜，欢迎通过邮件联系：
+### 联系
 
 📧 842559943@qq.com
 
----
-
-## License
+### License
 
 - **数据与文档**（论文、任务集、评测结果）：[CC BY 4.0](LICENSE-DATA) — 可自由使用，需注明来源
 - **代码**（tools/ 下的脚本）：[MIT](LICENSE-CODE)

@@ -1,4 +1,26 @@
-# Dataset Version History
+# Dataset Version History | 数据集版本历史
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+## v1.0 (2026-04)
+
+- 7 design scenes, 20 tasks per scene, 140 tasks total
+- Scenes: Logo Design / IP Character Design / Badge & Trophy / Product Poster / Product Image Enhancement / Online Marketing / Offline Promotion
+- Task type distribution: 5 ambiguous / 5 explicit / 5 edit / 5 compound per scene
+- Fictional brand: StarSelect (mascot: Mengxing), created in 2025, unrelated to any deployed product
+- Round 1 actual tasks evaluated: 115 (some tasks skipped due to tool limitations)
+
+## Contributing New Tasks
+
+See `../docs/how-to-contribute.md`
+
+---
+
+## 中文
 
 ## v1.0 (2026-04)
 
