@@ -16,7 +16,7 @@
 
 主要发现：Lovart 在 7 个场景中的 6 个获得第一（总胜率 56%），在 logo 设计（71%）、线上营销活动（67%）、线下推广物料（63%）三个场景优势尤为显著；即梦在商品海报设计场景拿到第一（50%）；Roboneo 在全部场景中落后于另两家，但在 IP 形象设计场景中具有一定竞争力（38%）。
 
-本文的核心贡献不在于产品排名本身，而在于提供一套**可被任何研究者或从业者复用的开源评测框架**，使 AI 设计工具的能力对比从"感觉驱动"走向"数据驱动"。任务集、评测工具链与完整结果数据已开源：https://github.com/SanJueLogic/ai-design-benchmark
+本文的核心贡献不在于产品排名本身，而在于提供一套**可被任何研究者或从业者复用的开源评测框架**，使 AI 设计工具的能力对比从"感觉驱动"走向"数据驱动"。任务集、评测工具链与完整结果数据已开源：https://github.com/SanJueLogic/MeiGen-DesignAgentBench
 
 **关键词**：AI 设计工具评测、Benchmark、SbS 双盲评测、企业场景、评测方法论
 
@@ -267,7 +267,7 @@ evaluation_questions:       # 适用的评测题目列表
 任务集已托管于 GitHub，采用 **CC BY 4.0** 协议开放使用：
 
 ```
-ai-design-benchmark/
+MeiGen-DesignAgentBench/
 └── dataset/
     └── v1.0/
         ├── tasks.json             # 结构化任务集（全部 115 条）
@@ -288,7 +288,7 @@ ai-design-benchmark/
   title     = {AI Design Agent Benchmark: A Scenario-Based Evaluation Framework},
   author    = {Liu, Xuedong},
   year      = {2026},
-  url       = {https://github.com/SanJueLogic/ai-design-benchmark},
+  url       = {https://github.com/SanJueLogic/MeiGen-DesignAgentBench},
   note      = {Round 1, v1.0}
 }
 ```
@@ -528,7 +528,7 @@ def compute_win_rate(raw_votes: dict, scene_name: str) -> dict:
 
 任何人希望复现本轮评测，需完成以下步骤：
 
-1. `git clone https://github.com/SanJueLogic/ai-design-benchmark`，安装依赖（Python 3.10+，openpyxl，pandas）
+1. `git clone https://github.com/SanJueLogic/MeiGen-DesignAgentBench`，安装依赖（Python 3.10+，openpyxl，pandas）
 2. 在 3 款产品上分别运行 `dataset/v1.0/tasks.json` 中的全部 115 个任务
 3. 将结果图按命名规范存入 `results/your-round/raw/[产品名]/`
 4. 编写或修改 `tools/sbs-template/` 中的投票界面，招募评测员完成盲测

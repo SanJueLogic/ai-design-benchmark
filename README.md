@@ -10,14 +10,14 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/ai-design-benchmark/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
-[![Tests](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml/badge.svg)](https://github.com/SanJueLogic/ai-design-benchmark/actions/workflows/test.yml)
+[![Paper](https://img.shields.io/badge/Paper-v1.1-blue.svg)](https://github.com/SanJueLogic/MeiGen-DesignAgentBench/releases/download/v1.1/AI-Design-Benchmark-v1.1.pdf)
+[![Tests](https://github.com/SanJueLogic/MeiGen-DesignAgentBench/actions/workflows/test.yml/badge.svg)](https://github.com/SanJueLogic/MeiGen-DesignAgentBench/actions/workflows/test.yml)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗%20Dataset-Sanjue--Logic%2Fai--design--benchmark-yellow)](https://huggingface.co/datasets/Sanjue-Logic/ai-design-benchmark)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19723368.svg)](https://doi.org/10.5281/zenodo.19723368)
 
 ### News
 
-- **2026-04**: v1.1 released — added reference images (53 files), bilingual tasks, CI pipeline, and 9 scoring tests; paper PDF published as [Release asset](https://github.com/SanJueLogic/ai-design-benchmark/releases/tag/v1.1)
+- **2026-04**: v1.1 released — added reference images (53 files), bilingual tasks, CI pipeline, and 9 scoring tests; paper PDF published as [Release asset](https://github.com/SanJueLogic/MeiGen-DesignAgentBench/releases/tag/v1.1)
 - **2026-04**: Round 1 results published — Lovart 56% (95% CI: 47%–64%), Jimeng 27%, Roboneo 19% across 7 scenes
 
 ### Overview
@@ -44,8 +44,8 @@ pip install -r tools/requirements.txt
 **Reproduce Round 1 results**
 
 ```bash
-git clone https://github.com/SanJueLogic/ai-design-benchmark
-cd ai-design-benchmark
+git clone https://github.com/SanJueLogic/MeiGen-DesignAgentBench
+cd MeiGen-DesignAgentBench
 python tools/scoring.py --input results/round-1/raw-votes.csv --output results/round-1/aggregated-repro.csv
 python tools/confidence.py --input results/round-1/raw-votes.csv
 ```
@@ -55,7 +55,7 @@ python tools/confidence.py --input results/round-1/raw-votes.csv
 ### Repository Structure
 
 ```
-ai-design-benchmark/
+MeiGen-DesignAgentBench/
 ├── paper/                        # Full paper (Chinese Markdown + PDF)
 ├── methodology/                  # Methodology docs (metrics / scoring / evaluator protocol)
 ├── dataset/
@@ -110,7 +110,7 @@ If this framework is helpful to your research, please cite:
   author    = {Liu, Sanjue},
   year      = {2026},
   institution = {Independent Research},
-  url       = {https://github.com/SanJueLogic/ai-design-benchmark}
+  url       = {https://github.com/SanJueLogic/MeiGen-DesignAgentBench}
 }
 ```
 
@@ -159,8 +159,8 @@ pip install -r tools/requirements.txt
 **复现 Round 1 结果**
 
 ```bash
-git clone https://github.com/SanJueLogic/ai-design-benchmark
-cd ai-design-benchmark
+git clone https://github.com/SanJueLogic/MeiGen-DesignAgentBench
+cd MeiGen-DesignAgentBench
 python tools/scoring.py --input results/round-1/raw-votes.csv --output results/round-1/aggregated-repro.csv
 python tools/confidence.py --input results/round-1/raw-votes.csv
 ```
@@ -195,7 +195,7 @@ python tools/confidence.py --input results/round-1/raw-votes.csv
   author    = {刘三觉},
   year      = {2026},
   institution = {独立评测研究},
-  url       = {https://github.com/SanJueLogic/ai-design-benchmark}
+  url       = {https://github.com/SanJueLogic/MeiGen-DesignAgentBench}
 }
 ```
 

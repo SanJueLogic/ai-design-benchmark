@@ -74,7 +74,7 @@ All notable changes are documented here, following [Keep a Changelog](https://ke
 - 脱敏完成：内部公司/产品名称 = 0 处
 - 数据重算：剔除第四家产品后 3 家横评，Lovart 56% / 即梦 27% / Roboneo 19%
 - 参考文献：12 条 BibTeX（HELM / SWE-bench / ChatBot Arena / MMLU / MMMU / MMBench / DrawBench / GenEval / GAIA / HumanEval / Fleiss / Landis）
-- GitHub 占位符填入：`SanJueLogic/ai-design-benchmark`
+- GitHub 占位符填入：`SanJueLogic/MeiGen-DesignAgentBench`
 - 数据修正：线下推广物料 62% → 63%；线上营销活动差距 50% → 45%；IP形象 / 商品图片美化置信度标记由 ⚠️ 改为 ❌
 
 ## 版本号策略
